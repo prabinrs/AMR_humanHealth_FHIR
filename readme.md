@@ -102,3 +102,6 @@ Prabin Raj Shakya (lead Consultant), prabinrs@gmail.com
 Rakesh Panthi(),rakeshpanthi008@gmail.com
 
 Subrat Gyawali (Technical Consultant), subhratmanigyawali@gmail.com
+
+## Learning Resouces
+- 📘 [**FHIR 101**](https://github.com/prabinrs/FHIR_telemed_2025)
