@@ -1,0 +1,54 @@
+{
+    "resourceType": "ValueSet",
+    "url": "https://amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_morphology_snomed",
+    "title": "VS AMR Microbiology Morphology [SNOMED CT]",
+    "name": "vs_amr_microbiology_morphology_snomed",
+    "status": "active",
+    "version": "0.0.1",
+    "compose": {
+      "include": [
+        {
+          "concept": [
+            {
+              "code": "723529006",
+              "display": "Extracellular Gram-negative diplococcus (finding)"
+            },
+            {
+              "code": "404509004",
+              "display": "Large gram-negative coccobacilli (finding)"
+            },
+            {
+              "code": "404510009",
+              "display": "Large gram-negative rods (finding)"
+            },
+            {
+              "code": "427824002",
+              "display": "Small Gram-negative rods (finding)"
+            },
+            {
+              "code": "61609004",
+              "display": "Gram-positive cocci in chains (finding)"
+            },
+            {
+              "display": "Gram-positive cocci in clusters (finding)",
+              "code": "70003006"
+            },
+            {
+              "code": "734444009",
+              "display": "Gram-positive cocci in chains, clusters, and pairs (finding)"
+            },
+            {
+              "code": "734447002",
+              "display": "Intracellular Gram-negative diplococcus (finding)"
+            }
+          ],
+          "system": "http://snomed.info/sct"
+        }
+      ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>MII VS Mikrobio Morphologie</h2><tt>https://amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_morphology_snomed</tt></div>"
+    },
+    "id": "vs_amr_microbiology_morphology_snomed"
+  }

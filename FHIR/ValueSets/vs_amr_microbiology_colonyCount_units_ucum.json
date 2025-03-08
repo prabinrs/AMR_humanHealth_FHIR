@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://www.amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_colonyCount_units_ucum",
+  "title": "ValueSet AMR microbiology Count Unit [UCUM]",
+  "name": "vs_amr_microbiology_colonyCount_units_ucum",
+  "status": "active",
+  "version": "0.0.1",
+  "compose": {
+    "include": [
+      {
+        "system": "http://unitsofmeasure.org",
+        "concept": [
+          {
+            "code": "[CFU]/mL"
+          },
+          {
+            "code": "[arb'U]/mL"
+          },
+          {
+            "code": "/g"
+          },
+          {
+            "code": "/mL"
+          },
+          {
+            "code": "{#}"
+          }
+        ]
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSet AMR microbiology Count Unit [UCUM]<tt>https://www.amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_colonyCount_units_ucum</tt></div>"
+  },
+  "id": "vs_amr_microbiology_colonyCount_units_ucum"
+}

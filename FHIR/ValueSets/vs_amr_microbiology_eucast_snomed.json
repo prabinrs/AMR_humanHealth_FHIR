@@ -1,0 +1,34 @@
+{
+    "resourceType": "ValueSet",
+    "url": "https://www.amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_eucast_snomedct",
+    "title": "ValueSet Microbiology EUCAST [SNOMED CT]",
+    "name": "VS_AMR_microbiology_EUCAST_SNOMED_CT",
+    "status": "active",
+    "version": "2025.0.0",
+    "compose": {
+        "include":  [
+            {
+                "system": "http://snomed.info/sct",
+                "concept":  [
+                    {
+                        "code": "1306577009",
+                        "display": "European Committee on Antimicrobial Susceptibility Testing category 2019 Susceptible, standard dosing regimen"
+                    },
+                    {
+                        "code": "1306583007",
+                        "display": "European Committee on Antimicrobial Susceptibility Testing category 2019 Susceptible, increased exposure"
+                    },
+                    {
+                        "code": "1306581009",
+                        "display": "European Committee on Antimicrobial Susceptibility Testing category 2019 Resistant"
+                    }
+                ]
+            }
+        ]
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSet Microbiology EUCAST [SNOMED CT]</h2><tt>https://www.amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_eucast_snomedct</tt></div>"
+    },
+    "id": "vs_amr_microbiology_eucast_snomedct"
+}

@@ -1,0 +1,1408 @@
+{
+    "resourceType": "ValueSet",
+    "url": "https://amr.data2health.info/fhir/ValueSet/mii-vs-mikrobio-mikroskopie-tests-loinc",
+    "title": "VS AMR Microbiology Microscopy Tests [LOINC]",
+    "status": "active",
+    "version": "0.0.1",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "email",
+            "value": "prabinrs@gmail.com"
+          }
+        ]
+      }
+    ],
+    "compose": {
+      "include": [
+        {
+          "system": "http://loinc.org",
+          "concept": [
+            {
+              "code": "10680-7",
+              "display": "Herpes simplex virus identified in Cerebral spinal fluid by Electron microscopy"
+            },
+            {
+              "code": "10681-5",
+              "display": "Herpes simplex virus identified in Tissue by Electron microscopy"
+            },
+            {
+              "code": "10649-2",
+              "display": "Calicivirus [Identifier] in Stool by Electron microscopy"
+            },
+            {
+              "code": "76699-8",
+              "display": "Filaria identified in Skin by Light microscopy"
+            },
+            {
+              "code": "10658-3",
+              "display": "Cyanobacterium identified in Water by Light microscopy"
+            },
+            {
+              "code": "10646-8",
+              "display": "Astrovirus [Identifier] in Stool by Electron microscopy"
+            },
+            {
+              "code": "10347-3",
+              "display": "Babesia microti identified in Blood by Light microscopy"
+            },
+            {
+              "code": "52107-0",
+              "display": "Bacterial capsule [Identifier] in Specimen by Light microscopy"
+            },
+            {
+              "code": "13325-6",
+              "display": "Bartonella sp identified in Blood by Light microscopy"
+            },
+            {
+              "code": "10661-7",
+              "display": "Dinoflagellate identified in Water by Light microscopy"
+            },
+            {
+              "code": "88156-5",
+              "display": "Microscopic observation [Identifier] in Amniotic fluid by Acid fast stain"
+            },
+            {
+              "code": "87970-0",
+              "display": "Microscopic observation [Identifier] in Amniotic fluid by Giemsa stain"
+            },
+            {
+              "code": "87971-8",
+              "display": "Microscopic observation [Identifier] in Amniotic fluid by Gram stain"
+            },
+            {
+              "code": "72408-8",
+              "display": "Microscopic observation [Identifier] in Anal by Gram stain"
+            },
+            {
+              "code": "88159-9",
+              "display": "Microscopic observation [Identifier] in Aspirate by Acid fast stain"
+            },
+            {
+              "code": "88684-6",
+              "display": "Microscopic observation [Identifier] in Aspirate by Giemsa stain"
+            },
+            {
+              "code": "14358-6",
+              "display": "Microscopic observation [Identifier] in Aspirate by Gram stain"
+            },
+            {
+              "code": "55222-4",
+              "display": "Microscopic observation [Identifier] in Aspirate by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "76082-7",
+              "display": "Microscopic observation [Identifier] in Bronchoalveolar lavage by Methenamine silver nitrate stain"
+            },
+            {
+              "code": "88231-6",
+              "display": "Microscopic observation [Identifier] in Bile fluid by Acid fast stain"
+            },
+            {
+              "code": "90261-9",
+              "display": "Microscopic observation [Identifier] in Bile fluid by Giemsa stain"
+            },
+            {
+              "code": "90262-7",
+              "display": "Microscopic observation [Identifier] in Bile fluid by Gram stain"
+            },
+            {
+              "code": "32699-1",
+              "display": "Microscopic observation [Identifier] in Blood by Acid fast stain"
+            },
+            {
+              "code": "29776-2",
+              "display": "Microscopic observation [Identifier] in Blood by Brilliant cresyl blue"
+            },
+            {
+              "code": "87969-2",
+              "display": "Microscopic observation [Identifier] in Blood by Gram stain"
+            },
+            {
+              "code": "73694-2",
+              "display": "Microscopic observation [Identifier] in Blood by KOH preparation"
+            },
+            {
+              "code": "32700-7",
+              "display": "Microscopic observation [Identifier] in Blood by Malaria smear"
+            },
+            {
+              "code": "33271-8",
+              "display": "Microscopic observation [Identifier] in Blood by Malaria thin smear"
+            },
+            {
+              "code": "33270-0",
+              "display": "Microscopic observation [Identifier] in Buffy Coat by Light microscopy"
+            },
+            {
+              "code": "9786-5",
+              "display": "Microscopic observation [Identifier] in Blood or Marrow by Periodic acid-Schiff stain"
+            },
+            {
+              "code": "32189-3",
+              "display": "Microscopic observation [Identifier] in Body fluid by Acid fast stain"
+            },
+            {
+              "code": "58944-0",
+              "display": "Microscopic observation [Identifier] in Body fluid by Acid fast stain.Ziehl-Neelsen"
+            },
+            {
+              "code": "48722-3",
+              "display": "Microscopic observation [Identifier] in Body fluid by Crystal violet stain"
+            },
+            {
+              "code": "87968-4",
+              "display": "Microscopic observation [Identifier] in Body fluid by Giemsa stain"
+            },
+            {
+              "code": "27112-2",
+              "display": "Microscopic observation [Identifier] in Body fluid by Gram stain"
+            },
+            {
+              "code": "68383-9",
+              "display": "Microscopic observation [Identifier] in Body fluid by KOH preparation"
+            },
+            {
+              "code": "53912-2",
+              "display": "Microscopic observation [Identifier] in Body fluid by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "23901-2",
+              "display": "Microscopic observation [Identifier] in Body fluid by Wet preparation"
+            },
+            {
+              "code": "88153-2",
+              "display": "Microscopic observation [Identifier] in Bone marrow by Acid fast stain"
+            },
+            {
+              "code": "87966-8",
+              "display": "Microscopic observation [Identifier] in Bone marrow by Giemsa stain"
+            },
+            {
+              "code": "87967-6",
+              "display": "Microscopic observation [Identifier] in Bone marrow by Gram stain"
+            },
+            {
+              "code": "53918-9",
+              "display": "Microscopic observation [Identifier] in Bone marrow by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "10355-6",
+              "display": "Microscopic observation [Identifier] in Bone marrow by Wright Giemsa stain"
+            },
+            {
+              "code": "24002-8",
+              "display": "Microscopic observation [Identifier] in Bronchial specimen by Acid fast stain"
+            },
+            {
+              "code": "21021-1",
+              "display": "Microscopic observation [Identifier] in Bronchial specimen by Gram stain"
+            },
+            {
+              "code": "32811-2",
+              "display": "Microscopic observation [Identifier] in Bronchial specimen by Iron hematoxylin stain"
+            },
+            {
+              "code": "53522-9",
+              "display": "Microscopic observation [Identifier] in Bronchial specimen by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "87974-2",
+              "display": "Microscopic observation [Identifier] in Burn by Gram stain"
+            },
+            {
+              "code": "87999-9",
+              "display": "Microscopic observation [Identifier] in Contact lens by Gram stain"
+            },
+            {
+              "code": "88170-6",
+              "display": "Microscopic observation [Identifier] in Cornea or Conjunctiva by Gram stain"
+            },
+            {
+              "code": "32190-1",
+              "display": "Microscopic observation [Identifier] in Cerebral spinal fluid"
+            },
+            {
+              "code": "32188-5",
+              "display": "Microscopic observation [Identifier] in Cerebral spinal fluid by Acid fast stain"
+            },
+            {
+              "code": "58943-2",
+              "display": "Microscopic observation [Identifier] in Cerebral spinal fluid by Acid fast stain.Ziehl-Neelsen"
+            },
+            {
+              "code": "59474-7",
+              "display": "Microscopic observation [Identifier] in Cerebral spinal fluid by Acridine orange stain"
+            },
+            {
+              "code": "87965-0",
+              "display": "Microscopic observation [Identifier] in Cerebral spinal fluid by Giemsa stain"
+            },
+            {
+              "code": "14357-8",
+              "display": "Microscopic observation [Identifier] in Cerebral spinal fluid by Gram stain"
+            },
+            {
+              "code": "638-7",
+              "display": "Microscopic observation [Identifier] in Cerebral spinal fluid by India ink prep"
+            },
+            {
+              "code": "53906-4",
+              "display": "Microscopic observation [Identifier] in Cerebral spinal fluid by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "90282-5",
+              "display": "Microscopic observation [Identifier] in Catheter tip by Gram stain"
+            },
+            {
+              "code": "89582-1",
+              "display": "Microscopic observation [Identifier] in Cervix by Acid fast stain"
+            },
+            {
+              "code": "88152-4",
+              "display": "Microscopic observation [Identifier] in Cervix by Acid fast stain.Kinyoun"
+            },
+            {
+              "code": "6464-2",
+              "display": "Microscopic observation [Identifier] in Cervix by Gram stain"
+            },
+            {
+              "code": "14355-2",
+              "display": "Microscopic observation [Identifier] in Cervix by KOH preparation"
+            },
+            {
+              "code": "14318-0",
+              "display": "Microscopic observation [Identifier] in Cervix by Wet preparation"
+            },
+            {
+              "code": "18326-9",
+              "display": "Microscopic observation [Identifier] in Cervix by Other stain"
+            },
+            {
+              "code": "21022-9",
+              "display": "Microscopic observation [Identifier] in Dialysis fluid by Gram stain"
+            },
+            {
+              "code": "88001-3",
+              "display": "Microscopic observation [Identifier] in Peritoneal dialysis fluid by Gram stain"
+            },
+            {
+              "code": "6465-9",
+              "display": "Microscopic observation [Identifier] in Duodenal fluid by Trichrome stain"
+            },
+            {
+              "code": "6466-7",
+              "display": "Microscopic observation [Identifier] in Duodenal fluid by Wet preparation"
+            },
+            {
+              "code": "18327-7",
+              "display": "Microscopic observation [Identifier] in Duodenal fluid by Other stain"
+            },
+            {
+              "code": "14365-1",
+              "display": "Microscopic observation [Identifier] in Ear by Gram stain"
+            },
+            {
+              "code": "53914-8",
+              "display": "Microscopic observation [Identifier] in Endometrium by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "14364-4",
+              "display": "Microscopic observation [Identifier] in Eye by Gram stain"
+            },
+            {
+              "code": "11476-9",
+              "display": "Microscopic observation [Identifier] in Gastric fluid by Acid fast stain"
+            },
+            {
+              "code": "640-3",
+              "display": "Microscopic observation [Identifier] in Gastric fluid by Acid fast stain.Kinyoun"
+            },
+            {
+              "code": "641-1",
+              "display": "Microscopic observation [Identifier] in Gastric fluid by Acid fast stain.Kinyoun modified"
+            },
+            {
+              "code": "642-9",
+              "display": "Microscopic observation [Identifier] in Gastric fluid by Acid fast stain.Ziehl-Neelsen"
+            },
+            {
+              "code": "20885-0",
+              "display": "Microscopic observation [Identifier] in Gastric fluid by Dark field examination"
+            },
+            {
+              "code": "53916-3",
+              "display": "Microscopic observation [Identifier] in Gastric fluid by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "88148-2",
+              "display": "Microscopic observation [Identifier] in Genital specimen by Acid fast stain"
+            },
+            {
+              "code": "91850-8",
+              "display": "Microscopic observation [Identifier] in Genital specimen by Giemsa stain"
+            },
+            {
+              "code": "48712-4",
+              "display": "Microscopic observation [Identifier] in Genital specimen by Gram stain"
+            },
+            {
+              "code": "14317-2",
+              "display": "Microscopic observation [Identifier] in Genital specimen by Wet preparation"
+            },
+            {
+              "code": "6467-5",
+              "display": "Microscopic observation [Identifier] in Genital fluid by Gram stain"
+            },
+            {
+              "code": "10856-3",
+              "display": "Microscopic observation [Identifier] in Genital mucus by Gram stain"
+            },
+            {
+              "code": "10688-0",
+              "display": "Microscopic observation [Identifier] in Hair by KOH preparation"
+            },
+            {
+              "code": "89660-5",
+              "display": "Microscopic observation [Identifier] in Implanted device by Acid fast stain"
+            },
+            {
+              "code": "89659-7",
+              "display": "Microscopic observation [Identifier] in Implanted device by Gram stain"
+            },
+            {
+              "code": "87975-9",
+              "display": "Microscopic observation [Identifier] in Isolate by Gram stain"
+            },
+            {
+              "code": "90269-2",
+              "display": "Microscopic observation [Identifier] in Milk by Acid fast stain"
+            },
+            {
+              "code": "90263-5",
+              "display": "Microscopic observation [Identifier] in Milk by Gram stain"
+            },
+            {
+              "code": "10689-8",
+              "display": "Microscopic observation [Identifier] in Nail by KOH preparation"
+            },
+            {
+              "code": "32026-7",
+              "display": "Microscopic observation [Identifier] in Nose by Gram stain"
+            },
+            {
+              "code": "88149-0",
+              "display": "Microscopic observation [Identifier] in Nasopharynx by Gram stain"
+            },
+            {
+              "code": "88155-7",
+              "display": "Microscopic observation [Identifier] in Ocular fluid by Acid fast stain"
+            },
+            {
+              "code": "88150-8",
+              "display": "Microscopic observation [Identifier] in Ocular fluid by Giemsa stain"
+            },
+            {
+              "code": "88158-1",
+              "display": "Microscopic observation [Identifier] in Ocular fluid by Gram stain"
+            },
+            {
+              "code": "32186-9",
+              "display": "Microscopic observation [Identifier] in Penis by Tzanck smear"
+            },
+            {
+              "code": "88145-8",
+              "display": "Microscopic observation [Identifier] in Pericardial fluid by Acid fast stain"
+            },
+            {
+              "code": "90267-6",
+              "display": "Microscopic observation [Identifier] in Pericardial fluid by Giemsa stain"
+            },
+            {
+              "code": "88147-4",
+              "display": "Microscopic observation [Identifier] in Pericardial fluid by Gram stain"
+            },
+            {
+              "code": "53915-5",
+              "display": "Microscopic observation [Identifier] in Pericardial fluid by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "88144-1",
+              "display": "Microscopic observation [Identifier] in Peritoneal fluid by Acid fast stain"
+            },
+            {
+              "code": "58945-7",
+              "display": "Microscopic observation [Identifier] in Peritoneal fluid by Acid fast stain.Ziehl-Neelsen"
+            },
+            {
+              "code": "90268-4",
+              "display": "Microscopic observation [Identifier] in Peritoneal fluid by Giemsa stain"
+            },
+            {
+              "code": "14359-4",
+              "display": "Microscopic observation [Identifier] in Peritoneal fluid by Gram stain"
+            },
+            {
+              "code": "53910-6",
+              "display": "Microscopic observation [Identifier] in Peritoneal fluid by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "88146-6",
+              "display": "Microscopic observation [Identifier] in Placenta by Gram stain"
+            },
+            {
+              "code": "14353-7",
+              "display": "Microscopic observation [Identifier] in Pleural fluid by Acid fast stain.Kinyoun modified"
+            },
+            {
+              "code": "58942-4",
+              "display": "Microscopic observation [Identifier] in Pleural fluid by Acid fast stain.Ziehl-Neelsen"
+            },
+            {
+              "code": "88000-5",
+              "display": "Microscopic observation [Identifier] in Pleural fluid by Giemsa stain"
+            },
+            {
+              "code": "14360-2",
+              "display": "Microscopic observation [Identifier] in Pleural fluid by Gram stain"
+            },
+            {
+              "code": "53907-2",
+              "display": "Microscopic observation [Identifier] in Pleural fluid by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "643-7",
+              "display": "Microscopic observation [Identifier] in Pus by Gram stain"
+            },
+            {
+              "code": "89662-1",
+              "display": "Microscopic observation [Identifier] in Lower respiratory specimen by Acid fast stain"
+            },
+            {
+              "code": "88633-3",
+              "display": "Microscopic observation [Identifier] in Lower respiratory specimen by Giemsa stain"
+            },
+            {
+              "code": "88632-5",
+              "display": "Microscopic observation [Identifier] in Lower respiratory specimen by Gram stain"
+            },
+            {
+              "code": "88685-3",
+              "display": "Microscopic observation [Identifier] in Lower respiratory specimen by KOH preparation"
+            },
+            {
+              "code": "89658-9",
+              "display": "Microscopic observation [Identifier] in Lower respiratory specimen by Methenamine silver nitrate stain"
+            },
+            {
+              "code": "89657-1",
+              "display": "Microscopic observation [Identifier] in Lower respiratory specimen by Toluidine blue O stain"
+            },
+            {
+              "code": "89661-3",
+              "display": "Microscopic observation [Identifier] in Upper respiratory specimen by Acid fast stain"
+            },
+            {
+              "code": "91808-6",
+              "display": "Microscopic observation [Identifier] in Upper respiratory specimen by Gram stain"
+            },
+            {
+              "code": "88634-1",
+              "display": "Microscopic observation [Identifier] in Saliva (oral fluid) by Gram stain"
+            },
+            {
+              "code": "88157-3",
+              "display": "Microscopic observation [Identifier] in Semen by Acid fast stain"
+            },
+            {
+              "code": "87973-4",
+              "display": "Microscopic observation [Identifier] in Semen by Gram stain"
+            },
+            {
+              "code": "88154-0",
+              "display": "Microscopic observation [Identifier] in Sinus by Acid fast stain"
+            },
+            {
+              "code": "87972-6",
+              "display": "Microscopic observation [Identifier] in Sinus by Gram stain"
+            },
+            {
+              "code": "94543-6",
+              "display": "Microscopic observation [Identifier] in Skin by Acid fast stain"
+            },
+            {
+              "code": "90296-5",
+              "display": "Microscopic observation [Identifier] in Skin by Gram stain"
+            },
+            {
+              "code": "644-5",
+              "display": "Microscopic observation [Identifier] in Skin by KOH preparation"
+            },
+            {
+              "code": "32187-7",
+              "display": "Microscopic observation [Identifier] in Skin by Tzanck smear"
+            },
+            {
+              "code": "11477-7",
+              "display": "Microscopic observation [Identifier] in Sputum by Acid fast stain"
+            },
+            {
+              "code": "645-2",
+              "display": "Microscopic observation [Identifier] in Sputum by Acid fast stain.Kinyoun"
+            },
+            {
+              "code": "646-0",
+              "display": "Microscopic observation [Identifier] in Sputum by Acid fast stain.Kinyoun modified"
+            },
+            {
+              "code": "647-8",
+              "display": "Microscopic observation [Identifier] in Sputum by Acid fast stain.Ziehl-Neelsen"
+            },
+            {
+              "code": "6468-3",
+              "display": "Microscopic observation [Identifier] in Sputum by Calcofluor white"
+            },
+            {
+              "code": "648-6",
+              "display": "Microscopic observation [Identifier] in Sputum by Gram stain"
+            },
+            {
+              "code": "17281-7",
+              "display": "Microscopic observation [Identifier] in Sputum by KOH preparation"
+            },
+            {
+              "code": "53904-9",
+              "display": "Microscopic observation [Identifier] in Sputum by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "11478-5",
+              "display": "Microscopic observation [Identifier] in Stool by Acid fast stain"
+            },
+            {
+              "code": "20884-3",
+              "display": "Microscopic observation [Identifier] in Stool by Dark field examination"
+            },
+            {
+              "code": "649-4",
+              "display": "Microscopic observation [Identifier] in Stool by Gram stain"
+            },
+            {
+              "code": "8250-3",
+              "display": "Microscopic observation [Identifier] in Stool by Electron microscopy"
+            },
+            {
+              "code": "20882-7",
+              "display": "Microscopic observation [Identifier] in Stool by Electron microscopy negative stain"
+            },
+            {
+              "code": "6469-1",
+              "display": "Microscopic observation [Identifier] in Stool by Trichrome stain"
+            },
+            {
+              "code": "6470-9",
+              "display": "Microscopic observation [Identifier] in Stool by Wet preparation"
+            },
+            {
+              "code": "63433-7",
+              "display": "Microscopic observation [Identifier] in Synovial fluid by Acid fast stain.Ziehl-Neelsen"
+            },
+            {
+              "code": "88235-7",
+              "display": "Microscopic observation [Identifier] in Synovial fluid by Giemsa stain"
+            },
+            {
+              "code": "14363-6",
+              "display": "Microscopic observation [Identifier] in Synovial fluid by Gram stain"
+            },
+            {
+              "code": "53913-0",
+              "display": "Microscopic observation [Identifier] in Synovial fluid by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "75222-0",
+              "display": "Microscopic observation [Identifier] in Throat by Alberts stain"
+            },
+            {
+              "code": "14362-8",
+              "display": "Microscopic observation [Identifier] in Throat by Gram stain"
+            },
+            {
+              "code": "11479-3",
+              "display": "Microscopic observation [Identifier] in Tissue by Acid fast stain"
+            },
+            {
+              "code": "6655-5",
+              "display": "Microscopic observation [Identifier] in Tissue by Acid fast stain.Kinyoun"
+            },
+            {
+              "code": "6656-3",
+              "display": "Microscopic observation [Identifier] in Tissue by Acid fast stain.Kinyoun modified"
+            },
+            {
+              "code": "6657-1",
+              "display": "Microscopic observation [Identifier] in Tissue by Acid fast stain.Ziehl-Neelsen"
+            },
+            {
+              "code": "6658-9",
+              "display": "Microscopic observation [Identifier] in Tissue by Acridine orange stain"
+            },
+            {
+              "code": "6472-5",
+              "display": "Microscopic observation [Identifier] in Tissue by Calcofluor white"
+            },
+            {
+              "code": "6659-7",
+              "display": "Microscopic observation [Identifier] in Tissue by Carbol-fuchsin stain"
+            },
+            {
+              "code": "6607-6",
+              "display": "Microscopic observation [Identifier] in Tissue by Dark field examination"
+            },
+            {
+              "code": "6661-3",
+              "display": "Microscopic observation [Identifier] in Tissue by Dry mount"
+            },
+            {
+              "code": "6662-1",
+              "display": "Microscopic observation [Identifier] in Tissue by Giemsa stain"
+            },
+            {
+              "code": "6663-9",
+              "display": "Microscopic observation [Identifier] in Tissue by Gimenez stain"
+            },
+            {
+              "code": "6664-7",
+              "display": "Microscopic observation [Identifier] in Tissue by Gram stain"
+            },
+            {
+              "code": "6665-4",
+              "display": "Microscopic observation [Identifier] in Tissue by Hematoxylin and eosin stain"
+            },
+            {
+              "code": "6666-2",
+              "display": "Microscopic observation [Identifier] in Tissue by India ink prep"
+            },
+            {
+              "code": "6667-0",
+              "display": "Microscopic observation [Identifier] in Tissue by KOH preparation"
+            },
+            {
+              "code": "6669-6",
+              "display": "Microscopic observation [Identifier] in Tissue by Macchiavello stain"
+            },
+            {
+              "code": "6670-4",
+              "display": "Microscopic observation [Identifier] in Tissue by Malaria smear"
+            },
+            {
+              "code": "6671-2",
+              "display": "Microscopic observation [Identifier] in Tissue by Methenamine silver nitrate stain"
+            },
+            {
+              "code": "6672-0",
+              "display": "Microscopic observation [Identifier] in Tissue by Methylene blue stain.Loeffler"
+            },
+            {
+              "code": "6668-8",
+              "display": "Microscopic observation [Identifier] in Tissue by M'Fadyean stain"
+            },
+            {
+              "code": "20881-9",
+              "display": "Microscopic observation [Identifier] in Tissue by Electron microscopy thin sectiion"
+            },
+            {
+              "code": "6673-8",
+              "display": "Microscopic observation [Identifier] in Tissue by Neisser stain"
+            },
+            {
+              "code": "10637-7",
+              "display": "Microscopic observation [Identifier] in Tissue by Night blue stain"
+            },
+            {
+              "code": "6675-3",
+              "display": "Microscopic observation [Identifier] in Tissue by Periodic acid-Schiff stain"
+            },
+            {
+              "code": "6677-9",
+              "display": "Microscopic observation [Identifier] in Tissue by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "6473-3",
+              "display": "Microscopic observation [Identifier] in Tissue by Trichrome stain"
+            },
+            {
+              "code": "6679-5",
+              "display": "Microscopic observation [Identifier] in Tissue by Warthin-Starry stain"
+            },
+            {
+              "code": "6680-3",
+              "display": "Microscopic observation [Identifier] in Tissue by Wet preparation"
+            },
+            {
+              "code": "6681-1",
+              "display": "Microscopic observation [Identifier] in Tissue by Wright stain"
+            },
+            {
+              "code": "6471-7",
+              "display": "Microscopic observation [Identifier] in Tissue by Other stain"
+            },
+            {
+              "code": "6474-1",
+              "display": "Microscopic observation [Identifier] in Urethra by Gram stain"
+            },
+            {
+              "code": "57851-8",
+              "display": "Microscopic observation [Identifier] in Urethra by Wet preparation"
+            },
+            {
+              "code": "11480-1",
+              "display": "Microscopic observation [Identifier] in Urine by Acid fast stain"
+            },
+            {
+              "code": "650-2",
+              "display": "Microscopic observation [Identifier] in Urine by Acid fast stain.Kinyoun"
+            },
+            {
+              "code": "651-0",
+              "display": "Microscopic observation [Identifier] in Urine by Acid fast stain.Kinyoun modified"
+            },
+            {
+              "code": "652-8",
+              "display": "Microscopic observation [Identifier] in Urine by Acid fast stain.Ziehl-Neelsen"
+            },
+            {
+              "code": "20883-5",
+              "display": "Microscopic observation [Identifier] in Urine by Dark field examination"
+            },
+            {
+              "code": "653-6",
+              "display": "Microscopic observation [Identifier] in Urine by Gram stain"
+            },
+            {
+              "code": "68958-8",
+              "display": "Microscopic observation [Identifier] in Urine by KOH preparation"
+            },
+            {
+              "code": "53905-6",
+              "display": "Microscopic observation [Identifier] in Urine by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "14361-0",
+              "display": "Microscopic observation [Identifier] in Vaginal fluid by Gram stain"
+            },
+            {
+              "code": "14356-0",
+              "display": "Microscopic observation [Identifier] in Vaginal fluid by KOH preparation"
+            },
+            {
+              "code": "14319-8",
+              "display": "Microscopic observation [Identifier] in Vaginal fluid by Wet preparation"
+            },
+            {
+              "code": "88635-8",
+              "display": "Microscopic observation [Identifier] in Vomitus by Gram stain"
+            },
+            {
+              "code": "88151-6",
+              "display": "Microscopic observation [Identifier] in Wound by Acid fast stain"
+            },
+            {
+              "code": "14354-5",
+              "display": "Microscopic observation [Identifier] in Wound by Acid fast stain.Kinyoun modified"
+            },
+            {
+              "code": "10357-2",
+              "display": "Microscopic observation [Identifier] in Wound by Gram stain"
+            },
+            {
+              "code": "11545-1",
+              "display": "Microscopic observation [Identifier] in Specimen by Acid fast stain"
+            },
+            {
+              "code": "654-4",
+              "display": "Microscopic observation [Identifier] in Specimen by Acid fast stain.Kinyoun"
+            },
+            {
+              "code": "655-1",
+              "display": "Microscopic observation [Identifier] in Specimen by Acid fast stain.Kinyoun modified"
+            },
+            {
+              "code": "656-9",
+              "display": "Microscopic observation [Identifier] in Specimen by Acid fast stain.Ziehl-Neelsen"
+            },
+            {
+              "code": "657-7",
+              "display": "Microscopic observation [Identifier] in Specimen by Acridine orange stain"
+            },
+            {
+              "code": "658-5",
+              "display": "Microscopic observation [Identifier] in Specimen by Calcofluor white"
+            },
+            {
+              "code": "659-3",
+              "display": "Microscopic observation [Identifier] in Specimen by Carbol-fuchsin stain"
+            },
+            {
+              "code": "660-1",
+              "display": "Microscopic observation [Identifier] in Specimen by Dark field examination"
+            },
+            {
+              "code": "661-9",
+              "display": "Microscopic observation [Identifier] in Specimen by Dry mount"
+            },
+            {
+              "code": "662-7",
+              "display": "Microscopic observation [Identifier] in Specimen by Giemsa stain"
+            },
+            {
+              "code": "663-5",
+              "display": "Microscopic observation [Identifier] in Specimen by Gimenez stain"
+            },
+            {
+              "code": "664-3",
+              "display": "Microscopic observation [Identifier] in Specimen by Gram stain"
+            },
+            {
+              "code": "665-0",
+              "display": "Microscopic observation [Identifier] in Specimen by Hematoxylin and eosin stain"
+            },
+            {
+              "code": "35347-4",
+              "display": "Microscopic observation [Identifier] in Specimen by Immunofluorescence"
+            },
+            {
+              "code": "666-8",
+              "display": "Microscopic observation [Identifier] in Specimen by India ink prep"
+            },
+            {
+              "code": "14841-1",
+              "display": "Microscopic observation [Identifier] in Specimen by Iron hematoxylin stain"
+            },
+            {
+              "code": "14842-9",
+              "display": "Microscopic observation [Identifier] in Specimen by Kinyoun iron hematoxylin stain"
+            },
+            {
+              "code": "667-6",
+              "display": "Microscopic observation [Identifier] in Specimen by KOH preparation"
+            },
+            {
+              "code": "51700-3",
+              "display": "Microscopic observation [Identifier] in Specimen by Lactophenol blue"
+            },
+            {
+              "code": "669-2",
+              "display": "Microscopic observation [Identifier] in Specimen by Macchiavello stain"
+            },
+            {
+              "code": "33699-0",
+              "display": "Microscopic observation [Identifier] in Specimen by Malachite green stain"
+            },
+            {
+              "code": "670-0",
+              "display": "Microscopic observation [Identifier] in Specimen by Methenamine silver nitrate stain"
+            },
+            {
+              "code": "671-8",
+              "display": "Microscopic observation [Identifier] in Specimen by Methylene blue stain.Loeffler"
+            },
+            {
+              "code": "668-4",
+              "display": "Microscopic observation [Identifier] in Specimen by M'Fadyean stain"
+            },
+            {
+              "code": "34166-9",
+              "display": "Microscopic observation [Identifier] in Specimen by Electron microscopy"
+            },
+            {
+              "code": "672-6",
+              "display": "Microscopic observation [Identifier] in Specimen by Neisser stain"
+            },
+            {
+              "code": "674-2",
+              "display": "Microscopic observation [Identifier] in Specimen by Periodic acid-Schiff stain"
+            },
+            {
+              "code": "676-7",
+              "display": "Microscopic observation [Identifier] in Specimen by Rhodamine-auramine fluorochrome stain"
+            },
+            {
+              "code": "20431-3",
+              "display": "Microscopic observation [Identifier] in Specimen by Smear"
+            },
+            {
+              "code": "677-5",
+              "display": "Microscopic observation [Identifier] in Specimen by Toluidine blue O stain"
+            },
+            {
+              "code": "678-3",
+              "display": "Microscopic observation [Identifier] in Specimen by Trichrome stain"
+            },
+            {
+              "code": "45043-7",
+              "display": "Microscopic observation [Identifier] in Specimen by Tzanck smear"
+            },
+            {
+              "code": "679-1",
+              "display": "Microscopic observation [Identifier] in Specimen by Warthin-Starry stain"
+            },
+            {
+              "code": "44098-2",
+              "display": "Microscopic observation [Identifier] in Specimen by Wayson stain"
+            },
+            {
+              "code": "680-9",
+              "display": "Microscopic observation [Identifier] in Specimen by Wet preparation"
+            },
+            {
+              "code": "682-5",
+              "display": "Microscopic observation [Identifier] in Specimen by Wright Giemsa stain"
+            },
+            {
+              "code": "681-7",
+              "display": "Microscopic observation [Identifier] in Specimen by Wright stain"
+            },
+            {
+              "code": "11546-9",
+              "display": "Microscopic observation [Identifier] in Specimen by Other stain"
+            },
+            {
+              "code": "79375-2",
+              "display": "Microscopic observation [Identifier] in Sputum by Acid fast stain.Ziehl-Neelsen--2nd specimen"
+            },
+            {
+              "code": "79376-0",
+              "display": "Microscopic observation [Identifier] in Sputum by Acid fast stain.Ziehl-Neelsen--3rd specimen"
+            },
+            {
+              "code": "10857-1",
+              "display": "Microsporidia identified in Specimen by Light microscopy"
+            },
+            {
+              "code": "88337-1",
+              "display": "Mite identified in Ear by Light microscopy"
+            },
+            {
+              "code": "10692-2",
+              "display": "Mushroom.toxic identified in Food by Light microscopy"
+            },
+            {
+              "code": "10693-0",
+              "display": "Mushroom.toxic identified in Vomitus by Light microscopy"
+            },
+            {
+              "code": "10696-3",
+              "display": "Norovirus [Identifier] in Stool by Electron microscopy"
+            },
+            {
+              "code": "10700-3",
+              "display": "Orthopoxvirus [Identifier] in Skin by Electron microscopy"
+            },
+            {
+              "code": "10855-5",
+              "display": "Ova and parasites identified in Duodenal fluid or Gastric fluid by Light microscopy"
+            },
+            {
+              "code": "91826-8",
+              "display": "Ova and parasites identified in Lower respiratory specimen by Light microscopy"
+            },
+            {
+              "code": "91768-2",
+              "display": "Ova and parasites identified in Sputum by Light microscopy"
+            },
+            {
+              "code": "10704-5",
+              "display": "Ova and parasites identified in Stool by Light microscopy"
+            },
+            {
+              "code": "6674-6",
+              "display": "Ova and parasites identified in Tissue by Light microscopy"
+            },
+            {
+              "code": "673-4",
+              "display": "Ova and parasites identified in Specimen by Light microscopy"
+            },
+            {
+              "code": "13319-9",
+              "display": "Ova and parasites identified in Stool by Light microscopy--2nd specimen"
+            },
+            {
+              "code": "52795-2",
+              "display": "Ova and parasites identified in Specimen by Light microscopy--2nd specimen"
+            },
+            {
+              "code": "13320-7",
+              "display": "Ova and parasites identified in Stool by Light microscopy--3rd specimen"
+            },
+            {
+              "code": "52794-5",
+              "display": "Ova and parasites identified in Specimen by Light microscopy--3rd specimen"
+            },
+            {
+              "code": "17784-0",
+              "display": "Parasite identified in Blood by Light microscopy"
+            },
+            {
+              "code": "53609-4",
+              "display": "Parasite identified in Bone marrow by Light microscopy"
+            },
+            {
+              "code": "98026-8",
+              "display": "Parasite identified in Prostatic fluid by Light microscopy"
+            },
+            {
+              "code": "20933-8",
+              "display": "Parasite identified in Serum by Light microscopy"
+            },
+            {
+              "code": "10706-0",
+              "display": "Picornavirus [Identifier] in Stool by Electron microscopy"
+            },
+            {
+              "code": "10708-6",
+              "display": "Toxic Plant identified in Vomitus by Light microscopy"
+            },
+            {
+              "code": "32206-5",
+              "display": "Plasmodium sp identified in Blood by Light microscopy"
+            },
+            {
+              "code": "41451-6",
+              "display": "Plasmodium stage [Identifier] in Blood by Light microscopy"
+            },
+            {
+              "code": "13326-4",
+              "display": "Pneumocystis sp identified in Specimen by Light microscopy"
+            },
+            {
+              "code": "9787-3",
+              "display": "Sarcoptes scabiei identified in Skin by Light microscopy"
+            },
+            {
+              "code": "76767-3",
+              "display": "Schistosoma sp identified in Semen by Light microscopy"
+            },
+            {
+              "code": "10715-1",
+              "display": "Schistosoma sp identified in Urine sediment by Light microscopy"
+            },
+            {
+              "code": "10722-7",
+              "display": "Torovirus [Identifier] in Stool by Electron microscopy"
+            },
+            {
+              "code": "74037-3",
+              "display": "Transmissible spongiform encephalopathy [Identifier] in Brain by Light microscopy"
+            },
+            {
+              "code": "10729-2",
+              "display": "Trypanosoma sp identified in Blood by Light microscopy"
+            },
+            {
+              "code": "14839-5",
+              "display": "Trypanosoma sp identified in Buffy Coat by Light microscopy"
+            },
+            {
+              "code": "10734-2",
+              "display": "Varicella zoster virus identified in Skin by Electron microscopy"
+            },
+            {
+              "code": "10736-7",
+              "display": "Virus identified in Cerebral spinal fluid by Electron microscopy"
+            },
+            {
+              "code": "10737-5",
+              "display": "Virus identified in Stool by Electron microscopy"
+            },
+            {
+              "code": "10738-3",
+              "display": "Virus identified in Tissue by Electron microscopy"
+            },
+            {
+              "code": "10739-1",
+              "display": "Virus identified in Specimen by Electron microscopy"
+            },
+            {
+              "code": "24421-0",
+              "display": "Haemobartonella felis [Presence] in Blood by Light microscopy"
+            },
+            {
+              "code": "22971-6",
+              "display": "Caprine arthritis encephalitis virus [Presence] in Specimen by Electron microscopy"
+            },
+            {
+              "code": "88344-7",
+              "display": "Intracellular bacteria [Presence] in Ear by Light microscopy"
+            },
+            {
+              "code": "32158-8",
+              "display": "Klebsiella granulomatis [Presence] in Genital specimen by Light microscopy"
+            },
+            {
+              "code": "43400-1",
+              "display": "Lactobacillus sp morphotypes [Presence] in Vaginal fluid by Light microscopy"
+            },
+            {
+              "code": "23212-4",
+              "display": "Lumpy skin disease virus [Presence] in Tissue by Electron microscopy"
+            },
+            {
+              "code": "48982-3",
+              "display": "Ehrlichia sp [Presence] in Specimen by Light microscopy"
+            },
+            {
+              "code": "88338-9",
+              "display": "Coccal bacteria [Presence] in Ear by Light microscopy"
+            },
+            {
+              "code": "23016-9",
+              "display": "Coxiella burnetii [Presence] in Placenta by Light microscopy"
+            },
+            {
+              "code": "44275-6",
+              "display": "Coxiella burnetii [Presence] in Specimen by Light microscopy"
+            },
+            {
+              "code": "16719-7",
+              "display": "Cytomegalovirus inclusion bodies [Presence] in Urine by Microscopic observation"
+            },
+            {
+              "code": "7809-7",
+              "display": "Astrovirus [Presence] in Stool by Electron microscopy"
+            },
+            {
+              "code": "22811-4",
+              "display": "Avian infectious laryngotracheitis virus [Presence] in Specimen by Electron microscopy"
+            },
+            {
+              "code": "22836-1",
+              "display": "Avian pox virus [Presence] in Tissue by Electron microscopy"
+            },
+            {
+              "code": "88339-7",
+              "display": "Bacilliform bacteria [Presence] in Ear by Light microscopy"
+            },
+            {
+              "code": "96601-0",
+              "display": "Bacilliform bacteria [Presence] in Skin by Light microscopy"
+            },
+            {
+              "code": "95074-1",
+              "display": "Bacteria [Presence] in Bronchoalveolar lavage by Light microscopy"
+            },
+            {
+              "code": "41599-2",
+              "display": "Bacteria [Presence] in Body fluid by Light microscopy"
+            },
+            {
+              "code": "41602-4",
+              "display": "Bacteria [Presence] in Cerebral spinal fluid by Light microscopy"
+            },
+            {
+              "code": "44039-6",
+              "display": "Bacteria [Presence] in Eye by Light microscopy"
+            },
+            {
+              "code": "18192-5",
+              "display": "Bacteria [Presence] in Nose by Light microscopy"
+            },
+            {
+              "code": "41598-4",
+              "display": "Bacteria [Presence] in Pericardial fluid by Light microscopy"
+            },
+            {
+              "code": "41601-6",
+              "display": "Bacteria [Presence] in Peritoneal fluid by Light microscopy"
+            },
+            {
+              "code": "41603-2",
+              "display": "Bacteria [Presence] in Pleural fluid by Light microscopy"
+            },
+            {
+              "code": "41600-8",
+              "display": "Bacteria [Presence] in Synovial fluid by Light microscopy"
+            },
+            {
+              "code": "22993-0",
+              "display": "Chlamydophila psittaci [Presence] in Placenta by Electron microscopy"
+            },
+            {
+              "code": "22808-0",
+              "display": "Infectious bronchitis virus [Presence] in Specimen by Electron microscopy"
+            },
+            {
+              "code": "23381-7",
+              "display": "Abnormal Prion Protein [Presence] in Brain by Electron microscopy"
+            },
+            {
+              "code": "48981-5",
+              "display": "Anaplasma sp [Presence] in Specimen by Light microscopy"
+            },
+            {
+              "code": "88342-1",
+              "display": "Malassezia sp [Presence] in Ear by Light microscopy"
+            },
+            {
+              "code": "23573-9",
+              "display": "Rabbit hemorrhagic disease virus [Presence] in Tissue by Electron microscopy"
+            },
+            {
+              "code": "23388-2",
+              "display": "Rabies virus [Presence] in Brain by Light microscopy"
+            },
+            {
+              "code": "51783-9",
+              "display": "Reagin Ab [Presence] in Cord blood by VDRL"
+            },
+            {
+              "code": "5290-2",
+              "display": "Reagin Ab [Presence] in Cerebral spinal fluid by VDRL"
+            },
+            {
+              "code": "5292-8",
+              "display": "Reagin Ab [Presence] in Serum by VDRL"
+            },
+            {
+              "code": "21030-2",
+              "display": "Reagin Ab [Presence] in Serum from Donor by VDRL"
+            },
+            {
+              "code": "14904-7",
+              "display": "Reagin Ab [Presence] in Specimen by VDRL"
+            },
+            {
+              "code": "23030-0",
+              "display": "Duck enteritis virus [Presence] in Tissue by Electron microscopy"
+            },
+            {
+              "code": "43398-7",
+              "display": "Gardnerella vaginalis+Prevotella sp morphotypes [Presence] in Vaginal fluid by Light microscopy"
+            },
+            {
+              "code": "76083-5",
+              "display": "Microscopic observation [Presence] in Bronchoalveolar lavage by Acid fast stain.Ziehl-Neelsen"
+            },
+            {
+              "code": "88171-4",
+              "display": "Microscopic observation [Presence] in Cornea or Conjunctiva by Acid fast stain"
+            },
+            {
+              "code": "88172-2",
+              "display": "Microscopic observation [Presence] in Isolate by Acid fast stain"
+            },
+            {
+              "code": "88173-0",
+              "display": "Microscopic observation [Presence] in Pleural fluid by Acid fast stain"
+            },
+            {
+              "code": "88631-7",
+              "display": "Microscopic observation [Presence] in Lower respiratory specimen by Acid fast stain.Kinyoun"
+            },
+            {
+              "code": "88234-0",
+              "display": "Microscopic observation [Presence] in Synovial fluid by Acid fast stain"
+            },
+            {
+              "code": "88366-0",
+              "display": "Microscopic observation [Presence] in Vomitus by Acid fast stain"
+            },
+            {
+              "code": "72357-7",
+              "display": "Microscopic observation [Presence] in Specimen by Acid fast stain"
+            },
+            {
+              "code": "87243-2",
+              "display": "Microscopic observation [Presence] in Specimen by Auramine fluorochrome stain"
+            },
+            {
+              "code": "94856-2",
+              "display": "Microscopic observation [Presence] in Sputum by Acid fast stain --2nd specimen"
+            },
+            {
+              "code": "94857-0",
+              "display": "Microscopic observation [Presence] in Sputum by Acid fast stain --3rd specimen"
+            },
+            {
+              "code": "88340-5",
+              "display": "Mite [Presence] in Ear by Light microscopy"
+            },
+            {
+              "code": "7973-1",
+              "display": "Norovirus [Presence] in Stool by Electron microscopy"
+            },
+            {
+              "code": "91900-1",
+              "display": "Parasite [Presence] in Blood by Light microscopy"
+            },
+            {
+              "code": "51587-4",
+              "display": "Plasmodium sp [Presence] in Blood by Light microscopy"
+            },
+            {
+              "code": "20949-4",
+              "display": "Rickettsia sp [Presence] in Blood by Light microscopy"
+            },
+            {
+              "code": "8011-9",
+              "display": "Rotavirus [Presence] in Stool by Electron microscopy"
+            },
+            {
+              "code": "38275-4",
+              "display": "Transmissible spongiform encephalopathy [Presence] in Brain by Light microscopy"
+            },
+            {
+              "code": "23499-7",
+              "display": "Trichinella spiralis [Presence] in Tissue by Light microscopy"
+            },
+            {
+              "code": "91845-8",
+              "display": "Trichomonas vaginalis [Presence] in Genital specimen by Light microscopy"
+            },
+            {
+              "code": "72277-7",
+              "display": "Trichomonas vaginalis [Presence] in Prostatic fluid by Light microscopy"
+            },
+            {
+              "code": "90286-6",
+              "display": "Trichomonas vaginalis [Presence] in Vaginal fluid by Light microscopy"
+            },
+            {
+              "code": "41222-1",
+              "display": "Yeast [Presence] in Body fluid by Light microscopy"
+            },
+            {
+              "code": "41242-9",
+              "display": "Yeast [Presence] in Cerebral spinal fluid by Light microscopy"
+            },
+            {
+              "code": "80725-5",
+              "display": "Trichomonas sp [Presence] in Semen by Light microscopy"
+            },
+            {
+              "code": "32724-7",
+              "display": "Trichomonas sp [Presence] in Urine by Light microscopy"
+            },
+            {
+              "code": "90303-9",
+              "display": "Trichomonas vaginalis [Presence] in Cervix by Light microscopy"
+            },
+            {
+              "code": "23509-3",
+              "display": "Trypanosoma equiperdum [Presence] in Body fluid by Light microscopy"
+            },
+            {
+              "code": "17773-3",
+              "display": "Yeast [Presence] in Stool by Light microscopy"
+            }
+          ]
+        }
+      ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>VA AMR Microbiology Microscopy [LOINC]</h2><tt>https://amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_microscopy_test_loinc</tt></div>"
+    },
+    "name": "vs_amr_microbiology_microscopy_test_loinc",
+    "id": "vs_amr_microbiology_microscopy_test_loinc"
+  }

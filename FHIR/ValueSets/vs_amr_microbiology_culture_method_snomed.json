@@ -1,0 +1,29 @@
+{
+    "resourceType": "ValueSet",
+    "url": "http://amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_culture_method_snomed",
+    "title": "VS AMR microbiology Culture Method [SNOMED CT]",
+    "name": "vs_microbiology_culture_method_snomedct",
+    "id": "vs_microbiology_culture_method_snomedct",
+    "status": "active",
+    "version": "0.0.1",
+    "compose": {
+      "include": [
+        {
+          "filter": [
+            {
+              "property": "concept",
+              "op": "is-a",
+              "value": "61594008"
+            }
+          ],
+          "system": "http://snomed.info/sct"
+        }
+      ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>VS AMR Microbiology Culture Method [SNOMED CT]</h2><tt>http://amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_culture_method_snomed</tt></div>"
+    }
+    
+  }
+  

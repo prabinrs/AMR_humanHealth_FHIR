@@ -1,0 +1,39 @@
+{
+    "resourceType": "ValueSet",
+    "url": "https://amr.data2health.info/fhir/ValueSets/mii-vs-mikrobio-keimzahl-loinc",
+    "title": "ValueSet Microbiology Culture Diagnostic [LOINC]",
+    "name": "vs_amr_microbiology_culture_diagnostic_loinc",
+    "status": "active",
+    "version": "0.0.1",
+    "compose": {
+      "include": [
+        {
+          "concept": [
+            {
+              "code": "49223-1",
+              "display": "Colony count [#/volume] in Unspecified specimen by Visual count"
+            },
+            {
+              "code": "564-5",
+              "display": "Colony count [#] in Unspecified specimen by Visual count"
+            },
+            {
+              "code": "38436-2",
+              "display": "Colony count [#/mass] in Unspecified specimen by Visual count"
+            },
+            {
+              "display": "Colony count [Units/volume] in Unspecified specimen by Visual count",
+              "code": "20774-6"
+            }
+          ],
+          "system": "http://loinc.org"
+        }
+      ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSet AMR Microbiology Culture Diagnostic</h2><tt>https://amr.data2health.info/fhir/ValueSets/mii-vs-mikrobio-keimzahl-loinc</tt></div>"
+    },
+    "id": "mii-vs-mikrobio-keimzahl-loinc",
+    "date": "2023-03-02T00:00:00.000Z"
+  }

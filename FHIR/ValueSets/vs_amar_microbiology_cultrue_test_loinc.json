@@ -1,0 +1,3608 @@
+{
+    "resourceType": "ValueSet",
+    "url": "https://amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_culture_test_loinc",
+    "title": "VS AMR Microbiology Culture Test [LOINC]",
+    "id": "vs_amr_microbiology_culture_test_loinc",
+    "status": "active",
+    "version": "0.0.1",
+    "contact": [
+      {
+        "telecom": [
+          {
+            "system": "email",
+            "value" : "prabinrs@gmail.com"
+          }
+        ]
+      }
+    ],
+    "compose": {
+      "include": [
+        {
+          "system": "http://loinc.org",
+          "concept": [
+            {
+              "code": "19127-0",
+              "display": "Bacteria identified in Sputum by Acute Respiratoy Distress (ARDS) culture"
+            },
+            {
+              "code": "636-1",
+              "display": "Bacteria identified in Specimen by Sterile body fluid culture"
+            },
+            {
+              "code": "45275-5",
+              "display": "Bacteria identified in Blood by Aerobe culture 25 degree C incubation"
+            },
+            {
+              "code": "79425-5",
+              "display": "Bacteria identified in Lower respiratory specimen by Cystic fibrosis respiratory culture"
+            },
+            {
+              "code": "623-9",
+              "display": "Bacteria identified in Sputum by Cystic fibrosis respiratory culture"
+            },
+            {
+              "code": "14325-5",
+              "display": "Bacteria identified in Specimen by Environmental culture"
+            },
+            {
+              "code": "10668-2",
+              "display": "Fungus identified in Specimen by Environmental culture"
+            },
+            {
+              "code": "45276-3",
+              "display": "Bacteria identified in Blood by Anaerobe culture 25 degree C incubation"
+            },
+            {
+              "code": "20474-3",
+              "display": "Bacteria identified in Tissue by Biopsy culture"
+            },
+            {
+              "code": "14788-4",
+              "display": "Helminth+Arthropod identified in Specimen by Rearing/Culture"
+            },
+            {
+              "code": "616-3",
+              "display": "Bacteria identified in Line specimen by IV Line culture"
+            },
+            {
+              "code": "17942-4",
+              "display": "Bacteria # 2 identified in Line specimen by IV Line culture"
+            },
+            {
+              "code": "17943-2",
+              "display": "Bacteria # 3 identified in Line specimen by IV Line culture"
+            },
+            {
+              "code": "17944-0",
+              "display": "Bacteria # 4 identified in Line specimen by IV Line culture"
+            },
+            {
+              "code": "17945-7",
+              "display": "Bacteria # 5 identified in Line specimen by IV Line culture"
+            },
+            {
+              "code": "17946-5",
+              "display": "Bacteria # 6 identified in Line specimen by IV Line culture"
+            },
+            {
+              "code": "75357-4",
+              "display": "Bacteria identified in Abscess by Anaerobe+Aerobe culture"
+            },
+            {
+              "code": "624-7",
+              "display": "Bacteria identified in Sputum by Respiratory culture"
+            },
+            {
+              "code": "75269-1",
+              "display": "Bacteria identified in Genital specimen by Anaerobe+Aerobe culture"
+            },
+            {
+              "code": "32355-0",
+              "display": "Bacteria identified in Specimen by Respiratory culture"
+            },
+            {
+              "code": "74816-0",
+              "display": "Bacteria identified in Eye by Anaerobe+Aerobe culture"
+            },
+            {
+              "code": "48561-5",
+              "display": "Bacteria # 2 identified in Specimen by Respiratory culture"
+            },
+            {
+              "code": "48562-3",
+              "display": "Bacteria # 3 identified in Specimen by Respiratory culture"
+            },
+            {
+              "code": "48563-1",
+              "display": "Bacteria # 4 identified in Specimen by Respiratory culture"
+            },
+            {
+              "code": "48564-9",
+              "display": "Bacteria # 5 identified in Specimen by Respiratory culture"
+            },
+            {
+              "code": "48565-6",
+              "display": "Bacteria # 6 identified in Specimen by Respiratory culture"
+            },
+            {
+              "code": "48566-4",
+              "display": "Bacteria # 7 identified in Specimen by Respiratory culture"
+            },
+            {
+              "code": "75358-2",
+              "display": "Bacteria identified in Bone by Anaerobe+Aerobe culture"
+            },
+            {
+              "code": "20896-7",
+              "display": "Mycoplasma sp [Presence] in Tissue by Culture NPIP (National Poultry Improvement Plan)"
+            },
+            {
+              "code": "75359-0",
+              "display": "Bacteria identified in Bone marrow by Anaerobe+Aerobe culture"
+            },
+            {
+              "code": "21020-3",
+              "display": "Bacteria identified in Specimen by Anaerobe+Aerobe culture"
+            },
+            {
+              "code": "46131-9",
+              "display": "Clostridioides difficile toxin B [Presence] in Stool by Cytotoxin tissue culture assay"
+            },
+            {
+              "code": "20692-0",
+              "display": "Bacillus cereus [Presence] in Food by Culture FDA method"
+            },
+            {
+              "code": "89655-5",
+              "display": "Virus identified in Tissue by Shell vial culture"
+            },
+            {
+              "code": "6362-8",
+              "display": "Clostridioides difficile toxin A+B [Presence] in Stool by Cytotoxin tissue culture assay"
+            },
+            {
+              "code": "20811-6",
+              "display": "Escherichia coli [Presence] in Specimen by Culture FDA method"
+            },
+            {
+              "code": "86337-3",
+              "display": "Virus identified in Isolate by Shell vial culture"
+            },
+            {
+              "code": "50024-9",
+              "display": "Virus identified in Specimen by Shell vial culture"
+            },
+            {
+              "code": "90426-8",
+              "display": "Microorganism preliminary growth [Presence] in Blood by Aerobic culture with antimicrobial neutralizer"
+            },
+            {
+              "code": "90427-6",
+              "display": "Microorganism preliminary growth [Presence] in Blood by Anaerobic culture with antimicrobial neutralizer"
+            },
+            {
+              "code": "43697-2",
+              "display": "Herpes simplex virus identified in Specimen by Shell vial culture"
+            },
+            {
+              "code": "43695-6",
+              "display": "Herpes virus identified in Specimen by Shell vial culture"
+            },
+            {
+              "code": "43699-8",
+              "display": "Enterovirus identified in Cerebral spinal fluid by Shell vial culture"
+            },
+            {
+              "code": "43698-0",
+              "display": "Enterovirus identified in Specimen by Shell vial culture"
+            },
+            {
+              "code": "49538-2",
+              "display": "Influenza virus identified in Specimen by Shell vial culture"
+            },
+            {
+              "code": "43696-4",
+              "display": "Herpes simplex virus identified in Cerebral spinal fluid by Shell vial culture"
+            },
+            {
+              "code": "43693-1",
+              "display": "Varicella zoster virus identified in Skin by Shell vial culture"
+            },
+            {
+              "code": "90428-4",
+              "display": "Microorganism preliminary growth [Presence] in Body fluid by Aerobic culture with antimicrobial neutralizer"
+            },
+            {
+              "code": "90431-8",
+              "display": "Microorganism preliminary growth [Presence] in Body fluid by Anaerobic culture with antimicrobial neutralizer"
+            },
+            {
+              "code": "80204-1",
+              "display": "Influenza virus A and B identified in Nasopharynx by Shell vial culture"
+            },
+            {
+              "code": "87943-7",
+              "display": "Bacteria identified in Sinus by Anaerobe culture"
+            },
+            {
+              "code": "87936-1",
+              "display": "Bacteria identified in Burn by Anaerobe culture"
+            },
+            {
+              "code": "87941-1",
+              "display": "Bacteria identified in Placenta by Anaerobe culture"
+            },
+            {
+              "code": "87934-6",
+              "display": "Bacteria identified in Bile fluid by Anaerobe culture"
+            },
+            {
+              "code": "90273-4",
+              "display": "Bacteria identified in Catheter tip by Anaerobe culture"
+            },
+            {
+              "code": "88139-1",
+              "display": "Bacteria identified in Ocular fluid by Anaerobe culture"
+            },
+            {
+              "code": "87935-3",
+              "display": "Bacteria identified in Blood product unit by Anaerobe culture"
+            },
+            {
+              "code": "88683-8",
+              "display": "Bacteria identified in Bronchoalveolar lavage by Anaerobe culture"
+            },
+            {
+              "code": "87938-7",
+              "display": "Bacteria identified in Implanted device by Anaerobe culture"
+            },
+            {
+              "code": "87939-5",
+              "display": "Bacteria identified in Pericardial fluid by Anaerobe culture"
+            },
+            {
+              "code": "87940-3",
+              "display": "Bacteria identified in Peritoneal fluid by Anaerobe culture"
+            },
+            {
+              "code": "87942-9",
+              "display": "Bacteria identified in Pleural fluid by Anaerobe culture"
+            },
+            {
+              "code": "87933-8",
+              "display": "Bacteria identified in Amniotic fluid by Anaerobe culture"
+            },
+            {
+              "code": "87955-1",
+              "display": "Bacteria identified in Cord blood by Anaerobe culture"
+            },
+            {
+              "code": "87937-9",
+              "display": "Bacteria identified in Cerebral spinal fluid by Anaerobe culture"
+            },
+            {
+              "code": "598-3",
+              "display": "Bacteria identified in Aspirate by Anaerobe culture"
+            },
+            {
+              "code": "633-8",
+              "display": "Bacteria identified in Wound by Anaerobe culture"
+            },
+            {
+              "code": "87944-5",
+              "display": "Bacteria identified in Synovial fluid by Anaerobe culture"
+            },
+            {
+              "code": "17934-1",
+              "display": "Bacteria identified in Blood by Anaerobe culture"
+            },
+            {
+              "code": "91865-6",
+              "display": "Bacteria identified in Genital specimen by Anaerobe culture"
+            },
+            {
+              "code": "20878-5",
+              "display": "Bacteria identified in Isolate by Anaerobe culture"
+            },
+            {
+              "code": "91818-5",
+              "display": "Bacteria identified in Upper respiratory specimen by Anaerobe culture"
+            },
+            {
+              "code": "628-8",
+              "display": "Bacteria identified in Tissue by Anaerobe culture"
+            },
+            {
+              "code": "12281-2",
+              "display": "Bacteria identified in Cervix by Anaerobe culture"
+            },
+            {
+              "code": "17925-9",
+              "display": "Bacteria identified in Wound deep by Anaerobe culture"
+            },
+            {
+              "code": "89644-9",
+              "display": "Bacteria identified in Lower respiratory specimen by Anaerobe culture"
+            },
+            {
+              "code": "90276-7",
+              "display": "Bacteria identified in Semen by Anaerobe culture"
+            },
+            {
+              "code": "6461-8",
+              "display": "Bacteria identified in Stool by Anaerobe culture"
+            },
+            {
+              "code": "635-3",
+              "display": "Bacteria identified in Specimen by Anaerobe culture"
+            },
+            {
+              "code": "17935-8",
+              "display": "Bacteria # 2 identified in Blood by Anaerobe culture"
+            },
+            {
+              "code": "17923-4",
+              "display": "Bacteria # 2 identified in Tissue by Anaerobe culture"
+            },
+            {
+              "code": "17936-6",
+              "display": "Bacteria # 3 identified in Blood by Anaerobe culture"
+            },
+            {
+              "code": "17924-2",
+              "display": "Bacteria # 3 identified in Tissue by Anaerobe culture"
+            },
+            {
+              "code": "59051-3",
+              "display": "Bacteria # 4 identified in Tissue by Anaerobe culture"
+            },
+            {
+              "code": "17956-4",
+              "display": "Bacteria identified in Body fluid by Anaerobe culture"
+            },
+            {
+              "code": "90277-5",
+              "display": "Bacteria identified in Peritoneal dialysis fluid by Anaerobe culture"
+            },
+            {
+              "code": "91062-0",
+              "display": "Bacteria identified in Platelets from Blood product unit by Anaerobe culture"
+            },
+            {
+              "code": "17921-8",
+              "display": "Bacteria # 2 identified in Nose by Anaerobe culture"
+            },
+            {
+              "code": "17926-7",
+              "display": "Bacteria # 2 identified in Wound deep by Anaerobe culture"
+            },
+            {
+              "code": "44843-1",
+              "display": "Bacteria # 2 identified in Specimen by Anaerobe culture"
+            },
+            {
+              "code": "17922-6",
+              "display": "Bacteria # 3 identified in Nose by Anaerobe culture"
+            },
+            {
+              "code": "17927-5",
+              "display": "Bacteria # 3 identified in Wound deep by Anaerobe culture"
+            },
+            {
+              "code": "44853-0",
+              "display": "Bacteria # 3 identified in Specimen by Anaerobe culture"
+            },
+            {
+              "code": "44856-3",
+              "display": "Bacteria # 4 identified in Specimen by Anaerobe culture"
+            },
+            {
+              "code": "44857-1",
+              "display": "Bacteria # 5 identified in Specimen by Anaerobe culture"
+            },
+            {
+              "code": "44858-9",
+              "display": "Bacteria # 6 identified in Specimen by Anaerobe culture"
+            },
+            {
+              "code": "44859-7",
+              "display": "Bacteria # 7 identified in Specimen by Anaerobe culture"
+            },
+            {
+              "code": "17957-2",
+              "display": "Bacteria # 2 identified in Body fluid by Anaerobe culture"
+            },
+            {
+              "code": "17958-0",
+              "display": "Bacteria # 3 identified in Body fluid by Anaerobe culture"
+            },
+            {
+              "code": "43706-1",
+              "display": "Cytomegalovirus [Presence] in Anal by Shell vial culture"
+            },
+            {
+              "code": "43703-8",
+              "display": "Cytomegalovirus [Presence] in Blood by Shell vial culture"
+            },
+            {
+              "code": "43707-9",
+              "display": "Cytomegalovirus [Presence] in Tissue by Shell vial culture"
+            },
+            {
+              "code": "43700-4",
+              "display": "Cytomegalovirus [Presence] in Urine by Shell vial culture"
+            },
+            {
+              "code": "88622-6",
+              "display": "Cytomegalovirus [Presence] in Ocular fluid by Shell vial culture"
+            },
+            {
+              "code": "81328-7",
+              "display": "Cytomegalovirus [Presence] in Lower respiratory specimen by Shell vial culture"
+            },
+            {
+              "code": "43701-2",
+              "display": "Cytomegalovirus [Presence] in Specimen by Shell vial culture"
+            },
+            {
+              "code": "88624-2",
+              "display": "Cytomegalovirus [Presence] in Amniotic fluid by Shell vial culture"
+            },
+            {
+              "code": "43704-6",
+              "display": "Cytomegalovirus [Presence] in Body fluid by Shell vial culture"
+            },
+            {
+              "code": "43705-3",
+              "display": "Cytomegalovirus [Presence] in Bone marrow by Shell vial culture"
+            },
+            {
+              "code": "43702-0",
+              "display": "Cytomegalovirus [Presence] in Cerebral spinal fluid by Shell vial culture"
+            },
+            {
+              "code": "91866-4",
+              "display": "Bacteria identified in Mouth by Aerobe culture"
+            },
+            {
+              "code": "73960-7",
+              "display": "Bacteria identified in Mouth by Culture"
+            },
+            {
+              "code": "77193-1",
+              "display": "Bacteria identified in Uterus by Culture"
+            },
+            {
+              "code": "20694-6",
+              "display": "Bacteria identified in Embryo by Aerobe culture"
+            },
+            {
+              "code": "597-5",
+              "display": "Bacteria identified in Aspirate by Aerobe culture"
+            },
+            {
+              "code": "602-3",
+              "display": "Bacteria identified in Bone by Aerobe culture"
+            },
+            {
+              "code": "607-2",
+              "display": "Bacteria identified in Drain by Aerobe culture"
+            },
+            {
+              "code": "20693-8",
+              "display": "Bacteria identified in Litter by Aerobe culture"
+            },
+            {
+              "code": "20879-3",
+              "display": "Bacteria identified in Milk by Aerobe culture"
+            },
+            {
+              "code": "43426-6",
+              "display": "Bacteria identified in Nasopharynx by Aerobe culture"
+            },
+            {
+              "code": "87932-0",
+              "display": "Bacteria identified in Sinus by Aerobe culture"
+            },
+            {
+              "code": "632-0",
+              "display": "Bacteria identified in Wound by Aerobe culture"
+            },
+            {
+              "code": "78356-3",
+              "display": "Bacteria identified in Implanted device by Culture"
+            },
+            {
+              "code": "595-9",
+              "display": "Bacteria identified in Abscess by Aerobe culture"
+            },
+            {
+              "code": "17928-3",
+              "display": "Bacteria identified in Blood by Aerobe culture"
+            },
+            {
+              "code": "87930-4",
+              "display": "Bacteria identified in Burn by Aerobe culture"
+            },
+            {
+              "code": "605-6",
+              "display": "Bacteria identified in Cannula specimen by Aerobe culture"
+            },
+            {
+              "code": "608-0",
+              "display": "Bacteria identified in Ear by Aerobe culture"
+            },
+            {
+              "code": "32367-5",
+              "display": "Bacteria identified in Isolate by Aerobe culture"
+            },
+            {
+              "code": "14478-2",
+              "display": "Bacteria identified in Penis by Aerobe culture"
+            },
+            {
+              "code": "617-1",
+              "display": "Bacteria identified in Placenta by Aerobe culture"
+            },
+            {
+              "code": "91819-3",
+              "display": "Bacteria identified in Upper respiratory specimen by Aerobe culture"
+            },
+            {
+              "code": "620-5",
+              "display": "Bacteria identified in Skin by Aerobe culture"
+            },
+            {
+              "code": "17898-8",
+              "display": "Bacteria identified in Throat by Aerobe culture"
+            },
+            {
+              "code": "627-0",
+              "display": "Bacteria identified in Tissue by Aerobe culture"
+            },
+            {
+              "code": "14477-4",
+              "display": "Bacteria identified in Urethra by Aerobe culture"
+            },
+            {
+              "code": "76693-1",
+              "display": "Bacteria identified in Blood product unit.autologous by Culture"
+            },
+            {
+              "code": "599-1",
+              "display": "Bacteria identified in Blood product unit by Aerobe culture"
+            },
+            {
+              "code": "74355-9",
+              "display": "Bacteria identified in Bartholin cyst by Aerobe culture"
+            },
+            {
+              "code": "90270-0",
+              "display": "Bacteria identified in Bile fluid by Aerobe culture"
+            },
+            {
+              "code": "74348-4",
+              "display": "Bacteria identified in Bone from Donor by Aerobe culture"
+            },
+            {
+              "code": "604-9",
+              "display": "Bacteria identified in Bronchial specimen by Aerobe culture"
+            },
+            {
+              "code": "88142-5",
+              "display": "Bacteria identified in Cornea or Conjunctiva by Aerobe culture"
+            },
+            {
+              "code": "90274-2",
+              "display": "Bacteria identified in Catheter tip by Aerobe culture"
+            },
+            {
+              "code": "14475-8",
+              "display": "Bacteria identified in Cervix by Aerobe culture"
+            },
+            {
+              "code": "53617-7",
+              "display": "Bacteria identified in Duodenal fluid by Aerobe culture"
+            },
+            {
+              "code": "609-8",
+              "display": "Bacteria identified in Eye by Aerobe culture"
+            },
+            {
+              "code": "10352-3",
+              "display": "Bacteria identified in Genital specimen by Aerobe culture"
+            },
+            {
+              "code": "10353-1",
+              "display": "Bacteria identified in Nose by Aerobe culture"
+            },
+            {
+              "code": "88141-7",
+              "display": "Bacteria identified in Ocular fluid by Aerobe culture"
+            },
+            {
+              "code": "622-1",
+              "display": "Bacteria identified in Sputum by Aerobe culture"
+            },
+            {
+              "code": "631-2",
+              "display": "Bacteria identified in Unknown substance by Aerobe culture"
+            },
+            {
+              "code": "17909-3",
+              "display": "Bacteria identified in Wound deep by Aerobe culture"
+            },
+            {
+              "code": "17915-0",
+              "display": "Bacteria identified in Wound shallow by Aerobe culture"
+            },
+            {
+              "code": "17873-1",
+              "display": "Bacteria # 2 identified in Bone by Aerobe culture"
+            },
+            {
+              "code": "17874-9",
+              "display": "Bacteria # 3 identified in Bone by Aerobe culture"
+            },
+            {
+              "code": "17875-6",
+              "display": "Bacteria # 4 identified in Bone by Aerobe culture"
+            },
+            {
+              "code": "17876-4",
+              "display": "Bacteria # 5 identified in Bone by Aerobe culture"
+            },
+            {
+              "code": "17877-2",
+              "display": "Bacteria # 6 identified in Bone by Aerobe culture"
+            },
+            {
+              "code": "43411-8",
+              "display": "Bacteria identified in Aspirate by Culture"
+            },
+            {
+              "code": "60257-3",
+              "display": "Bacteria identified in Cornea by Culture"
+            },
+            {
+              "code": "43214-6",
+              "display": "Bacteria identified in Nasopharynx by Culture"
+            },
+            {
+              "code": "43307-8",
+              "display": "Bacteria identified in Sinus by Culture"
+            },
+            {
+              "code": "14093-9",
+              "display": "Bacteria identified in Water by Culture"
+            },
+            {
+              "code": "6608-4",
+              "display": "Virus identified in Isolate by Culture"
+            },
+            {
+              "code": "14459-2",
+              "display": "Virus identified in Penis by Culture"
+            },
+            {
+              "code": "43441-5",
+              "display": "Bacteria identified in Bronchoalveolar lavage by Aerobe culture"
+            },
+            {
+              "code": "43442-3",
+              "display": "Bacteria identified in Bronchial brush by Aerobe culture"
+            },
+            {
+              "code": "87931-2",
+              "display": "Bacteria identified in Implanted device by Aerobe culture"
+            },
+            {
+              "code": "90271-8",
+              "display": "Bacteria identified in Pericardial fluid by Aerobe culture"
+            },
+            {
+              "code": "90281-7",
+              "display": "Bacteria identified in Peritoneal fluid by Aerobe culture"
+            },
+            {
+              "code": "17279-1",
+              "display": "Bacteria identified in Pleural fluid by Aerobe culture"
+            },
+            {
+              "code": "89643-1",
+              "display": "Bacteria identified in Lower respiratory specimen by Aerobe culture"
+            },
+            {
+              "code": "90279-1",
+              "display": "Bacteria identified in Semen by Aerobe culture"
+            },
+            {
+              "code": "634-6",
+              "display": "Bacteria identified in Specimen by Aerobe culture"
+            },
+            {
+              "code": "17929-1",
+              "display": "Bacteria # 2 identified in Blood by Aerobe culture"
+            },
+            {
+              "code": "17899-6",
+              "display": "Bacteria # 2 identified in Throat by Aerobe culture"
+            },
+            {
+              "code": "17904-4",
+              "display": "Bacteria # 2 identified in Tissue by Aerobe culture"
+            },
+            {
+              "code": "17930-9",
+              "display": "Bacteria # 3 identified in Blood by Aerobe culture"
+            },
+            {
+              "code": "17900-2",
+              "display": "Bacteria # 3 identified in Throat by Aerobe culture"
+            },
+            {
+              "code": "17905-1",
+              "display": "Bacteria # 3 identified in Tissue by Aerobe culture"
+            },
+            {
+              "code": "17931-7",
+              "display": "Bacteria # 4 identified in Blood by Aerobe culture"
+            },
+            {
+              "code": "17890-5",
+              "display": "Bacteria # 4 identified in Nose by Aerobe culture"
+            },
+            {
+              "code": "17901-0",
+              "display": "Bacteria # 4 identified in Throat by Aerobe culture"
+            },
+            {
+              "code": "17906-9",
+              "display": "Bacteria # 4 identified in Tissue by Aerobe culture"
+            },
+            {
+              "code": "17932-5",
+              "display": "Bacteria # 5 identified in Blood by Aerobe culture"
+            },
+            {
+              "code": "17891-3",
+              "display": "Bacteria # 5 identified in Nose by Aerobe culture"
+            },
+            {
+              "code": "17902-8",
+              "display": "Bacteria # 5 identified in Throat by Aerobe culture"
+            },
+            {
+              "code": "17907-7",
+              "display": "Bacteria # 5 identified in Tissue by Aerobe culture"
+            },
+            {
+              "code": "17933-3",
+              "display": "Bacteria # 6 identified in Blood by Aerobe culture"
+            },
+            {
+              "code": "17892-1",
+              "display": "Bacteria # 6 identified in Nose by Aerobe culture"
+            },
+            {
+              "code": "17903-6",
+              "display": "Bacteria # 6 identified in Throat by Aerobe culture"
+            },
+            {
+              "code": "17908-5",
+              "display": "Bacteria # 6 identified in Tissue by Aerobe culture"
+            },
+            {
+              "code": "52966-9",
+              "display": "Bacteria identified in Anal by Culture"
+            },
+            {
+              "code": "600-7",
+              "display": "Bacteria identified in Blood by Culture"
+            },
+            {
+              "code": "603-1",
+              "display": "Bacteria identified in Burn by Culture"
+            },
+            {
+              "code": "6459-2",
+              "display": "Bacteria identified in Food by Culture"
+            },
+            {
+              "code": "43409-2",
+              "display": "Bacteria identified in Isolate by Culture"
+            },
+            {
+              "code": "626-2",
+              "display": "Bacteria identified in Throat by Culture"
+            },
+            {
+              "code": "43408-4",
+              "display": "Bacteria identified in Tissue by Culture"
+            },
+            {
+              "code": "10354-9",
+              "display": "Bacteria identified in Urethra by Culture"
+            },
+            {
+              "code": "630-4",
+              "display": "Bacteria identified in Urine by Culture"
+            },
+            {
+              "code": "6462-6",
+              "display": "Bacteria identified in Wound by Culture"
+            },
+            {
+              "code": "568-6",
+              "display": "Fungus identified in Aspirate by Culture"
+            },
+            {
+              "code": "571-0",
+              "display": "Fungus identified in Hair by Culture"
+            },
+            {
+              "code": "88687-9",
+              "display": "Fungus identified in Mouth by Culture"
+            },
+            {
+              "code": "87980-9",
+              "display": "Fungus identified in Sinus by Culture"
+            },
+            {
+              "code": "579-3",
+              "display": "Fungus identified in Wound by Culture"
+            },
+            {
+              "code": "5883-4",
+              "display": "Virus identified in Blood by Culture"
+            },
+            {
+              "code": "14454-3",
+              "display": "Virus identified in Nose by Culture"
+            },
+            {
+              "code": "72373-4",
+              "display": "Virus identified in Nasopharynx by Culture"
+            },
+            {
+              "code": "5885-9",
+              "display": "Virus identified in Skin by Culture"
+            },
+            {
+              "code": "5887-5",
+              "display": "Virus identified in Throat by Culture"
+            },
+            {
+              "code": "5888-3",
+              "display": "Virus identified in Tissue by Culture"
+            },
+            {
+              "code": "14460-0",
+              "display": "Virus identified in Urethra by Culture"
+            },
+            {
+              "code": "14457-6",
+              "display": "Virus identified in Urine by Culture"
+            },
+            {
+              "code": "87929-6",
+              "display": "Bacteria identified in Amniotic fluid by Aerobe culture"
+            },
+            {
+              "code": "87954-4",
+              "display": "Bacteria identified in Cord blood by Aerobe culture"
+            },
+            {
+              "code": "610-6",
+              "display": "Bacteria identified in Body fluid by Aerobe culture"
+            },
+            {
+              "code": "19126-2",
+              "display": "Bacteria identified in Bone marrow by Aerobe culture"
+            },
+            {
+              "code": "88236-5",
+              "display": "Bacteria identified in Cerebral spinal fluid by Aerobe culture"
+            },
+            {
+              "code": "90280-9",
+              "display": "Bacteria identified in Peritoneal dialysis fluid by Aerobe culture"
+            },
+            {
+              "code": "91063-8",
+              "display": "Bacteria identified in Platelets from Blood product unit by Aerobe culture"
+            },
+            {
+              "code": "90278-3",
+              "display": "Bacteria identified in Synovial fluid by Aerobe culture"
+            },
+            {
+              "code": "11261-5",
+              "display": "Bacteria identified in Vaginal fluid by Aerobe culture"
+            },
+            {
+              "code": "17878-0",
+              "display": "Bacteria # 2 identified in Bronchial specimen by Aerobe culture"
+            },
+            {
+              "code": "53614-4",
+              "display": "Bacteria # 2 identified in Duodenal fluid by Aerobe culture"
+            },
+            {
+              "code": "17883-0",
+              "display": "Bacteria # 2 identified in Genital specimen by Aerobe culture"
+            },
+            {
+              "code": "17888-9",
+              "display": "Bacteria # 2 identified in Nose by Aerobe culture"
+            },
+            {
+              "code": "17893-9",
+              "display": "Bacteria # 2 identified in Sputum by Aerobe culture"
+            },
+            {
+              "code": "17910-1",
+              "display": "Bacteria # 2 identified in Wound deep by Aerobe culture"
+            },
+            {
+              "code": "17916-8",
+              "display": "Bacteria # 2 identified in Wound shallow by Aerobe culture"
+            },
+            {
+              "code": "17879-8",
+              "display": "Bacteria # 3 identified in Bronchial specimen by Aerobe culture"
+            },
+            {
+              "code": "53615-1",
+              "display": "Bacteria # 3 identified in Duodenal fluid by Aerobe culture"
+            },
+            {
+              "code": "17884-8",
+              "display": "Bacteria # 3 identified in Genital specimen by Aerobe culture"
+            },
+            {
+              "code": "17889-7",
+              "display": "Bacteria # 3 identified in Nose by Aerobe culture"
+            },
+            {
+              "code": "17894-7",
+              "display": "Bacteria # 3 identified in Sputum by Aerobe culture"
+            },
+            {
+              "code": "17911-9",
+              "display": "Bacteria # 3 identified in Wound deep by Aerobe culture"
+            },
+            {
+              "code": "17917-6",
+              "display": "Bacteria # 3 identified in Wound shallow by Aerobe culture"
+            },
+            {
+              "code": "48567-2",
+              "display": "Bacteria # 3 identified in Specimen by Aerobe culture"
+            },
+            {
+              "code": "17880-6",
+              "display": "Bacteria # 4 identified in Bronchial specimen by Aerobe culture"
+            },
+            {
+              "code": "53616-9",
+              "display": "Bacteria # 4 identified in Duodenal fluid by Aerobe culture"
+            },
+            {
+              "code": "17885-5",
+              "display": "Bacteria # 4 identified in Genital specimen by Aerobe culture"
+            },
+            {
+              "code": "17895-4",
+              "display": "Bacteria # 4 identified in Sputum by Aerobe culture"
+            },
+            {
+              "code": "17912-7",
+              "display": "Bacteria # 4 identified in Wound deep by Aerobe culture"
+            },
+            {
+              "code": "17918-4",
+              "display": "Bacteria # 4 identified in Wound shallow by Aerobe culture"
+            },
+            {
+              "code": "17881-4",
+              "display": "Bacteria # 5 identified in Bronchial specimen by Aerobe culture"
+            },
+            {
+              "code": "17886-3",
+              "display": "Bacteria # 5 identified in Genital specimen by Aerobe culture"
+            },
+            {
+              "code": "17896-2",
+              "display": "Bacteria # 5 identified in Sputum by Aerobe culture"
+            },
+            {
+              "code": "17913-5",
+              "display": "Bacteria # 5 identified in Wound deep by Aerobe culture"
+            },
+            {
+              "code": "17919-2",
+              "display": "Bacteria # 5 identified in Wound shallow by Aerobe culture"
+            },
+            {
+              "code": "17882-2",
+              "display": "Bacteria # 6 identified in Bronchial specimen by Aerobe culture"
+            },
+            {
+              "code": "17887-1",
+              "display": "Bacteria # 6 identified in Genital specimen by Aerobe culture"
+            },
+            {
+              "code": "17897-0",
+              "display": "Bacteria # 6 identified in Sputum by Aerobe culture"
+            },
+            {
+              "code": "17914-3",
+              "display": "Bacteria # 6 identified in Wound deep by Aerobe culture"
+            },
+            {
+              "code": "17920-0",
+              "display": "Bacteria # 6 identified in Wound shallow by Aerobe culture"
+            },
+            {
+              "code": "47293-6",
+              "display": "Bacteria # 7 identified in Genital specimen by Aerobe culture"
+            },
+            {
+              "code": "47294-4",
+              "display": "Bacteria # 7 identified in Wound shallow by Aerobe culture"
+            },
+            {
+              "code": "48568-0",
+              "display": "Bacteria # 7 identified in Specimen by Aerobe culture"
+            },
+            {
+              "code": "47295-1",
+              "display": "Bacteria # 8 identified in Wound shallow by Aerobe culture"
+            },
+            {
+              "code": "48569-8",
+              "display": "Bacteria # 8 identified in Specimen by Aerobe culture"
+            },
+            {
+              "code": "13315-7",
+              "display": "Bacteria identified in 24 hour Urine by Culture"
+            },
+            {
+              "code": "68366-4",
+              "display": "Bacteria identified in Blood product unit by Culture"
+            },
+            {
+              "code": "53911-4",
+              "display": "Bacteria identified in Bile fluid by Culture"
+            },
+            {
+              "code": "56714-9",
+              "display": "Bacteria identified in Contact lens by Culture"
+            },
+            {
+              "code": "19128-8",
+              "display": "Bacteria identified in Catheter tip by Culture"
+            },
+            {
+              "code": "43410-0",
+              "display": "Bacteria identified in Cervix by Culture"
+            },
+            {
+              "code": "53908-0",
+              "display": "Bacteria identified in Esophageal brushing by Culture"
+            },
+            {
+              "code": "52967-7",
+              "display": "Bacteria identified in Gastric fluid by Culture"
+            },
+            {
+              "code": "6460-0",
+              "display": "Bacteria identified in Sputum by Culture"
+            },
+            {
+              "code": "58940-8",
+              "display": "Bacteria identified in Total parental nutrition by Culture"
+            },
+            {
+              "code": "74356-7",
+              "display": "Bacteria identified in Ventriculoperitoneal (VP) shunt by Culture"
+            },
+            {
+              "code": "17939-0",
+              "display": "Bacteria # 4 identified in Burn by Culture"
+            },
+            {
+              "code": "17940-8",
+              "display": "Bacteria # 5 identified in Burn by Culture"
+            },
+            {
+              "code": "17941-6",
+              "display": "Bacteria # 6 identified in Burn by Culture"
+            },
+            {
+              "code": "601-5",
+              "display": "Fungus identified in Blood by Culture"
+            },
+            {
+              "code": "87981-7",
+              "display": "Fungus identified in Burn by Culture"
+            },
+            {
+              "code": "15378-3",
+              "display": "Fungus identified in Isolate by Culture"
+            },
+            {
+              "code": "573-6",
+              "display": "Fungus identified in Nail by Culture"
+            },
+            {
+              "code": "91812-8",
+              "display": "Fungus identified in Upper respiratory specimen by Culture"
+            },
+            {
+              "code": "575-1",
+              "display": "Fungus identified in Skin by Culture"
+            },
+            {
+              "code": "578-5",
+              "display": "Fungus identified in Tissue by Culture"
+            },
+            {
+              "code": "40435-0",
+              "display": "Fungus identified in Urine by Culture"
+            },
+            {
+              "code": "14452-7",
+              "display": "Virus identified in Cervix by Culture"
+            },
+            {
+              "code": "14451-9",
+              "display": "Virus identified in Eye by Culture"
+            },
+            {
+              "code": "40480-6",
+              "display": "Virus identified in Genital specimen by Culture"
+            },
+            {
+              "code": "14456-8",
+              "display": "Virus identified in Peritoneal fluid by Culture"
+            },
+            {
+              "code": "6583-9",
+              "display": "Virus identified in Semen by Culture"
+            },
+            {
+              "code": "14458-4",
+              "display": "Virus identified in Sputum by Culture"
+            },
+            {
+              "code": "9822-8",
+              "display": "Bacteria identified in Dialysis fluid by Culture"
+            },
+            {
+              "code": "56715-6",
+              "display": "Bacteria identified in Pericardial fluid by Culture"
+            },
+            {
+              "code": "619-7",
+              "display": "Bacteria identified in Peritoneal fluid by Culture"
+            },
+            {
+              "code": "618-9",
+              "display": "Bacteria identified in Pleural fluid by Culture"
+            },
+            {
+              "code": "53558-3",
+              "display": "Bacteria identified in Semen by Culture"
+            },
+            {
+              "code": "43407-6",
+              "display": "Bacteria identified in Wound deep by Culture"
+            },
+            {
+              "code": "6463-4",
+              "display": "Bacteria identified in Specimen by Culture"
+            },
+            {
+              "code": "48727-2",
+              "display": "Bacteria # 2 identified in Blood by Culture"
+            },
+            {
+              "code": "17937-4",
+              "display": "Bacteria # 2 identified in Burn by Culture"
+            },
+            {
+              "code": "17970-5",
+              "display": "Bacteria # 2 identified in Urine by Culture"
+            },
+            {
+              "code": "48724-9",
+              "display": "Bacteria # 3 identified in Blood by Culture"
+            },
+            {
+              "code": "17938-2",
+              "display": "Bacteria # 3 identified in Burn by Culture"
+            },
+            {
+              "code": "17971-3",
+              "display": "Bacteria # 3 identified in Urine by Culture"
+            },
+            {
+              "code": "17972-1",
+              "display": "Bacteria # 4 identified in Urine by Culture"
+            },
+            {
+              "code": "17973-9",
+              "display": "Bacteria # 5 identified in Urine by Culture"
+            },
+            {
+              "code": "17974-7",
+              "display": "Bacteria # 6 identified in Urine by Culture"
+            },
+            {
+              "code": "44847-2",
+              "display": "Bacteria # 7 identified in Urine by Culture"
+            },
+            {
+              "code": "44849-8",
+              "display": "Bacteria # 8 identified in Urine by Culture"
+            },
+            {
+              "code": "45337-3",
+              "display": "Bacterial biochemical profile [Identifier] in Isolate by Culture"
+            },
+            {
+              "code": "24009-3",
+              "display": "Fungus identified in Bronchial specimen by Culture"
+            },
+            {
+              "code": "88143-3",
+              "display": "Fungus identified in Cornea or Conjunctiva by Culture"
+            },
+            {
+              "code": "41026-6",
+              "display": "Fungus identified in Genital specimen by Culture"
+            },
+            {
+              "code": "87976-7",
+              "display": "Fungus identified in Implanted device by Culture"
+            },
+            {
+              "code": "76073-6",
+              "display": "Fungus identified in Nose by Culture"
+            },
+            {
+              "code": "574-4",
+              "display": "Fungus identified in Peritoneal fluid by Culture"
+            },
+            {
+              "code": "89656-3",
+              "display": "Fungus identified in Lower respiratory specimen by Culture"
+            },
+            {
+              "code": "577-7",
+              "display": "Fungus identified in Sputum by Culture"
+            },
+            {
+              "code": "41446-6",
+              "display": "Parasite identified in Specimen by Culture"
+            },
+            {
+              "code": "10713-6",
+              "display": "Prototheca identified in Specimen by Culture"
+            },
+            {
+              "code": "14455-0",
+              "display": "Virus identified in Pleural fluid by Culture"
+            },
+            {
+              "code": "87709-2",
+              "display": "Virus identified in Lower respiratory specimen by Culture"
+            },
+            {
+              "code": "5886-7",
+              "display": "Virus identified in Stool by Culture"
+            },
+            {
+              "code": "6584-7",
+              "display": "Virus identified in Specimen by Culture"
+            },
+            {
+              "code": "17951-5",
+              "display": "Bacteria # 2 identified in Body fluid by Aerobe culture"
+            },
+            {
+              "code": "17952-3",
+              "display": "Bacteria # 3 identified in Body fluid by Aerobe culture"
+            },
+            {
+              "code": "17953-1",
+              "display": "Bacteria # 4 identified in Body fluid by Aerobe culture"
+            },
+            {
+              "code": "17954-9",
+              "display": "Bacteria # 5 identified in Body fluid by Aerobe culture"
+            },
+            {
+              "code": "17955-6",
+              "display": "Bacteria # 6 identified in Body fluid by Aerobe culture"
+            },
+            {
+              "code": "596-7",
+              "display": "Bacteria identified in Amniotic fluid by Culture"
+            },
+            {
+              "code": "60258-1",
+              "display": "Bacteria identified in Bone marrow by Culture"
+            },
+            {
+              "code": "60032-0",
+              "display": "Bacteria identified in Peritoneal dialysis fluid by Culture"
+            },
+            {
+              "code": "52973-5",
+              "display": "Bacteria identified in Sputum tracheal aspirate by Culture"
+            },
+            {
+              "code": "625-4",
+              "display": "Bacteria identified in Stool by Culture"
+            },
+            {
+              "code": "17961-4",
+              "display": "Bacteria # 4 identified in Peritoneal fluid by Culture"
+            },
+            {
+              "code": "17962-2",
+              "display": "Bacteria # 5 identified in Peritoneal fluid by Culture"
+            },
+            {
+              "code": "17963-0",
+              "display": "Bacteria # 6 identified in Peritoneal fluid by Culture"
+            },
+            {
+              "code": "88686-1",
+              "display": "Fungus identified in Bronchoalveolar lavage by Culture"
+            },
+            {
+              "code": "87977-5",
+              "display": "Fungus identified in Pericardial fluid by Culture"
+            },
+            {
+              "code": "87979-1",
+              "display": "Fungus identified in Pleural fluid by Culture"
+            },
+            {
+              "code": "27414-2",
+              "display": "Fungus identified in Stool by Culture"
+            },
+            {
+              "code": "580-1",
+              "display": "Fungus identified in Specimen by Culture"
+            },
+            {
+              "code": "11475-1",
+              "display": "Microorganism identified in Specimen by Culture"
+            },
+            {
+              "code": "11484-3",
+              "display": "Virus identified in Amniotic fluid by Culture"
+            },
+            {
+              "code": "40479-8",
+              "display": "Virus identified in Body fluid by Culture"
+            },
+            {
+              "code": "5884-2",
+              "display": "Virus identified in Cerebral spinal fluid by Culture"
+            },
+            {
+              "code": "72374-2",
+              "display": "Virus identified in Lung tissue by Culture"
+            },
+            {
+              "code": "14453-5",
+              "display": "Virus identified in Vaginal fluid by Culture"
+            },
+            {
+              "code": "611-4",
+              "display": "Bacteria identified in Body fluid by Culture"
+            },
+            {
+              "code": "606-4",
+              "display": "Bacteria identified in Cerebral spinal fluid by Culture"
+            },
+            {
+              "code": "17959-8",
+              "display": "Bacteria # 2 identified in Peritoneal fluid by Culture"
+            },
+            {
+              "code": "17964-8",
+              "display": "Bacteria # 2 identified in Stool by Culture"
+            },
+            {
+              "code": "44841-5",
+              "display": "Bacteria # 2 identified in Specimen by Culture"
+            },
+            {
+              "code": "17960-6",
+              "display": "Bacteria # 3 identified in Peritoneal fluid by Culture"
+            },
+            {
+              "code": "17965-5",
+              "display": "Bacteria # 3 identified in Stool by Culture"
+            },
+            {
+              "code": "44842-3",
+              "display": "Bacteria # 3 identified in Specimen by Culture"
+            },
+            {
+              "code": "17966-3",
+              "display": "Bacteria # 4 identified in Stool by Culture"
+            },
+            {
+              "code": "44844-9",
+              "display": "Bacteria # 4 identified in Specimen by Culture"
+            },
+            {
+              "code": "17967-1",
+              "display": "Bacteria # 5 identified in Stool by Culture"
+            },
+            {
+              "code": "44845-6",
+              "display": "Bacteria # 5 identified in Specimen by Culture"
+            },
+            {
+              "code": "17968-9",
+              "display": "Bacteria # 6 identified in Stool by Culture"
+            },
+            {
+              "code": "44846-4",
+              "display": "Bacteria # 6 identified in Specimen by Culture"
+            },
+            {
+              "code": "44848-0",
+              "display": "Bacteria # 7 identified in Specimen by Culture"
+            },
+            {
+              "code": "44850-6",
+              "display": "Bacteria # 8 identified in Specimen by Culture"
+            },
+            {
+              "code": "570-2",
+              "display": "Fungus identified in Body fluid by Culture"
+            },
+            {
+              "code": "572-8",
+              "display": "Fungus identified in Bone marrow by Culture"
+            },
+            {
+              "code": "569-4",
+              "display": "Fungus identified in Cerebral spinal fluid by Culture"
+            },
+            {
+              "code": "87978-3",
+              "display": "Fungus identified in Peritoneal dialysis fluid by Culture"
+            },
+            {
+              "code": "6409-7",
+              "display": "Fungus identified in Sputum tracheal aspirate by Culture"
+            },
+            {
+              "code": "97939-3",
+              "display": "Medium induced in vitro yeast conversion [Identifier] in Isolate by Culture"
+            },
+            {
+              "code": "17975-4",
+              "display": "Virus # 2 identified in Specimen by Culture"
+            },
+            {
+              "code": "17976-2",
+              "display": "Virus # 3 identified in Specimen by Culture"
+            },
+            {
+              "code": "621-3",
+              "display": "Bacteria identified in Synovial fluid by Culture"
+            },
+            {
+              "code": "576-9",
+              "display": "Fungus identified in Synovial fluid by Culture"
+            },
+            {
+              "code": "50766-5",
+              "display": "Fungus # 8 identified in Specimen by Culture"
+            },
+            {
+              "code": "17947-3",
+              "display": "Fungus # 2 identified in Specimen by Culture"
+            },
+            {
+              "code": "17948-1",
+              "display": "Fungus # 3 identified in Specimen by Culture"
+            },
+            {
+              "code": "17949-9",
+              "display": "Fungus # 4 identified in Specimen by Culture"
+            },
+            {
+              "code": "44840-7",
+              "display": "Fungus # 5 identified in Specimen by Culture"
+            },
+            {
+              "code": "47291-0",
+              "display": "Fungus # 6 identified in Specimen by Culture"
+            },
+            {
+              "code": "47292-8",
+              "display": "Fungus # 7 identified in Specimen by Culture"
+            },
+            {
+              "code": "78702-8",
+              "display": "Multiple drug resistant gram negative organism [Identifier] in Specimen by Culture"
+            },
+            {
+              "code": "90437-5",
+              "display": "Microorganism preliminary growth [Presence] in Blood by Anaerobe culture"
+            },
+            {
+              "code": "100910-9",
+              "display": "Gram negative bacteria.colistin resistant identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "44093-3",
+              "display": "Neisseria meningitidis [Identifier] in Isolate by Organism specific culture"
+            },
+            {
+              "code": "90430-0",
+              "display": "Microorganism preliminary growth [Presence] in Body fluid by Anaerobe culture"
+            },
+            {
+              "code": "90073-8",
+              "display": "Lactobacillales identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "90067-0",
+              "display": "Enterobacteriaceae identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "91764-1",
+              "display": "Nocardia sp identified in Aspirate by Organism specific culture"
+            },
+            {
+              "code": "90078-7",
+              "display": "Yeast identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "90432-6",
+              "display": "Microorganism preliminary growth [Presence] in Platelets from Blood product unit by Anaerobe culture"
+            },
+            {
+              "code": "91773-2",
+              "display": "Herpes simplex virus identified in Aspirate by Organism specific culture"
+            },
+            {
+              "code": "88582-2",
+              "display": "Bordetella sp identified in Nasopharynx by Organism specific culture"
+            },
+            {
+              "code": "91872-2",
+              "display": "Bordetella sp identified in Throat by Organism specific culture"
+            },
+            {
+              "code": "90100-9",
+              "display": "Listeria sp identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "91770-8",
+              "display": "Enterovirus identified in Upper respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "90066-2",
+              "display": "Corynebacterium sp identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "6309-9",
+              "display": "Arbovirus identified in Blood by Organism specific culture"
+            },
+            {
+              "code": "6603-5",
+              "display": "Influenza virus identified in Throat by Organism specific culture"
+            },
+            {
+              "code": "6596-1",
+              "display": "Diphtheria identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "14482-4",
+              "display": "Diphtheria identified in Skin by Organism specific culture"
+            },
+            {
+              "code": "14479-0",
+              "display": "Diphtheria identified in Throat by Organism specific culture"
+            },
+            {
+              "code": "20964-3",
+              "display": "Shigella sp identified in Feed by Organism specific culture"
+            },
+            {
+              "code": "20968-4",
+              "display": "Staphylococcus sp identified in Cheese by Organism specific culture"
+            },
+            {
+              "code": "90076-1",
+              "display": "Staphylococcus sp identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "90077-9",
+              "display": "Urinary pathogens identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "6580-5",
+              "display": "Vibrio sp identified in Water by Organism specific culture"
+            },
+            {
+              "code": "53571-6",
+              "display": "Yeast identified in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "91779-9",
+              "display": "Yeast identified in Upper respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "90458-1",
+              "display": "Actinomyces sp identified in Aspirate by Organism specific culture"
+            },
+            {
+              "code": "88922-0",
+              "display": "Actinomyces sp identified in Tissue by Organism specific culture"
+            },
+            {
+              "code": "35417-5",
+              "display": "Herpes simplex virus identified in Anal by Organism specific culture"
+            },
+            {
+              "code": "35421-7",
+              "display": "Herpes simplex virus identified in Ear by Organism specific culture"
+            },
+            {
+              "code": "35451-4",
+              "display": "Herpes simplex virus identified in Nasopharynx by Organism specific culture"
+            },
+            {
+              "code": "35424-1",
+              "display": "Herpes simplex virus identified in Penis by Organism specific culture"
+            },
+            {
+              "code": "35425-8",
+              "display": "Herpes simplex virus identified in Placenta by Organism specific culture"
+            },
+            {
+              "code": "5858-6",
+              "display": "Herpes simplex virus identified in Skin by Organism specific culture"
+            },
+            {
+              "code": "35430-8",
+              "display": "Herpes simplex virus identified in Throat by Organism specific culture"
+            },
+            {
+              "code": "35431-6",
+              "display": "Herpes simplex virus identified in Tissue by Organism specific culture"
+            },
+            {
+              "code": "35433-2",
+              "display": "Herpes simplex virus identified in Urethra by Organism specific culture"
+            },
+            {
+              "code": "35432-4",
+              "display": "Herpes simplex virus identified in Urine by Organism specific culture"
+            },
+            {
+              "code": "35434-0",
+              "display": "Herpes simplex virus identified in Wound by Organism specific culture"
+            },
+            {
+              "code": "6429-5",
+              "display": "HIV identified in Blood by Organism specific culture"
+            },
+            {
+              "code": "91775-7",
+              "display": "Bordetella sp identified in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "91777-3",
+              "display": "Bordetella sp identified in Upper respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "20735-7",
+              "display": "Brucella sp identified in Milk by Organism specific culture"
+            },
+            {
+              "code": "20734-0",
+              "display": "Brucella sp identified in Tissue by Organism specific culture"
+            },
+            {
+              "code": "6330-5",
+              "display": "Campylobacter sp identified in Blood by Organism specific culture"
+            },
+            {
+              "code": "20738-1",
+              "display": "Campylobacter sp identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "20740-7",
+              "display": "Campylobacter sp identified in Tissue by Organism specific culture"
+            },
+            {
+              "code": "87956-9",
+              "display": "Legionella sp identified in Tissue by Organism specific culture"
+            },
+            {
+              "code": "38394-3",
+              "display": "Legionella sp identified in Urine by Organism specific culture"
+            },
+            {
+              "code": "87957-7",
+              "display": "Legionella sp identified in Water by Organism specific culture"
+            },
+            {
+              "code": "6453-5",
+              "display": "Leptospira sp identified in Blood by Organism specific culture"
+            },
+            {
+              "code": "23600-0",
+              "display": "Leptospira sp identified in Milk by Organism specific culture"
+            },
+            {
+              "code": "23599-4",
+              "display": "Leptospira sp identified in Tissue by Organism specific culture"
+            },
+            {
+              "code": "6455-0",
+              "display": "Leptospira sp identified in Urine by Organism specific culture"
+            },
+            {
+              "code": "45097-3",
+              "display": "Chlamydia sp identified in Anal by Organism specific culture"
+            },
+            {
+              "code": "45101-3",
+              "display": "Chlamydia sp identified in Nasopharynx by Organism specific culture"
+            },
+            {
+              "code": "558-7",
+              "display": "Chlamydia sp identified in Throat by Organism specific culture"
+            },
+            {
+              "code": "559-5",
+              "display": "Chlamydia sp identified in Urethra by Organism specific culture"
+            },
+            {
+              "code": "88200-1",
+              "display": "Influenza virus identified in Cornea or Conjunctiva by Organism specific culture"
+            },
+            {
+              "code": "91772-4",
+              "display": "Influenza virus identified in Upper respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "6536-7",
+              "display": "Rabies virus identified in Tissue by Organism specific culture"
+            },
+            {
+              "code": "14483-2",
+              "display": "Diphtheria identified in Bronchial specimen by Organism specific culture"
+            },
+            {
+              "code": "14481-6",
+              "display": "Diphtheria identified in Nose by Organism specific culture"
+            },
+            {
+              "code": "14480-8",
+              "display": "Diphtheria identified in Sputum by Organism specific culture"
+            },
+            {
+              "code": "88532-7",
+              "display": "Human metapneumovirus identified in Cornea or Conjunctiva by Organism specific culture"
+            },
+            {
+              "code": "91778-1",
+              "display": "Human metapneumovirus identified in Upper respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "10694-8",
+              "display": "Naegleria sp identified in Tissue by Organism specific culture"
+            },
+            {
+              "code": "43386-2",
+              "display": "Neisseria sp identified in Anal by Organism specific culture"
+            },
+            {
+              "code": "80369-2",
+              "display": "Neisseria sp identified in Anorectal by Organism specific culture"
+            },
+            {
+              "code": "43383-9",
+              "display": "Neisseria sp identified in Throat by Organism specific culture"
+            },
+            {
+              "code": "43384-7",
+              "display": "Neisseria sp identified in Urethra by Organism specific culture"
+            },
+            {
+              "code": "14226-5",
+              "display": "Nocardia sp identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "90075-3",
+              "display": "Non-Enterobacteriaceae identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "5878-4",
+              "display": "Rickettsia sp identified in Blood by Organism specific culture"
+            },
+            {
+              "code": "6548-2",
+              "display": "Rubella virus identified in Serum by Organism specific culture"
+            },
+            {
+              "code": "20952-8",
+              "display": "Salmonella sp identified in Egg by Organism specific culture"
+            },
+            {
+              "code": "20967-6",
+              "display": "Staphylococcus sp identified in Milk by Organism specific culture"
+            },
+            {
+              "code": "43389-6",
+              "display": "Streptococcus sp identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "20987-4",
+              "display": "Yersinia sp identified in Dairy product by Organism specific culture"
+            },
+            {
+              "code": "6578-9",
+              "display": "Vibrio sp identified in Blood by Organism specific culture"
+            },
+            {
+              "code": "89634-0",
+              "display": "Actinomyces sp identified in Implanted device by Organism specific culture"
+            },
+            {
+              "code": "6594-6",
+              "display": "Amoeba identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "35418-3",
+              "display": "Herpes simplex virus identified in Bronchial specimen by Organism specific culture"
+            },
+            {
+              "code": "88127-6",
+              "display": "Herpes simplex virus identified in Cornea or Conjunctiva by Organism specific culture"
+            },
+            {
+              "code": "35420-9",
+              "display": "Herpes simplex virus identified in Cervix by Organism specific culture"
+            },
+            {
+              "code": "32689-2",
+              "display": "Herpes simplex virus identified in Eye by Organism specific culture"
+            },
+            {
+              "code": "5856-0",
+              "display": "Herpes simplex virus identified in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "6430-3",
+              "display": "HIV identified in Semen by Organism specific culture"
+            },
+            {
+              "code": "6431-1",
+              "display": "HIV identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "87946-0",
+              "display": "Borrelia sp identified in Tissue by Organism specific culture"
+            },
+            {
+              "code": "551-2",
+              "display": "Brucella sp identified in Blood by Organism specific culture"
+            },
+            {
+              "code": "553-8",
+              "display": "Candida sp identified in Saliva (oral fluid) by Organism specific culture"
+            },
+            {
+              "code": "589-2",
+              "display": "Legionella sp identified in Bronchial specimen by Organism specific culture"
+            },
+            {
+              "code": "10687-2",
+              "display": "Leishmania sp identified in Tissue by Organism specific culture"
+            },
+            {
+              "code": "88537-6",
+              "display": "Enterovirus identified in Pericardial fluid by Organism specific culture"
+            },
+            {
+              "code": "5843-8",
+              "display": "Enterovirus identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "6406-3",
+              "display": "Flavivirus identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "73836-9",
+              "display": "Bacteria.fluoroquinolone resistant identified in Anal by Organism specific culture"
+            },
+            {
+              "code": "24005-1",
+              "display": "Chlamydia sp identified in Bronchial specimen by Organism specific culture"
+            },
+            {
+              "code": "556-1",
+              "display": "Chlamydia sp identified in Conjunctival specimen by Organism specific culture"
+            },
+            {
+              "code": "45098-1",
+              "display": "Chlamydia sp identified in Cervix by Organism specific culture"
+            },
+            {
+              "code": "557-9",
+              "display": "Chlamydia sp identified in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "6348-7",
+              "display": "Chlamydia sp identified in Sputum by Organism specific culture"
+            },
+            {
+              "code": "90068-8",
+              "display": "Gram negative bacilli identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "90069-6",
+              "display": "Gram positive bacilli identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "100905-9",
+              "display": "Gram positive bacteria identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "6310-7",
+              "display": "Arbovirus identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "6601-9",
+              "display": "Influenza virus identified in Sputum by Organism specific culture"
+            },
+            {
+              "code": "567-8",
+              "display": "Diphtheria identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "49110-0",
+              "display": "Mycoplasma sp identified in Urine by Organism specific culture"
+            },
+            {
+              "code": "43385-4",
+              "display": "Neisseria sp identified in Cervix by Organism specific culture"
+            },
+            {
+              "code": "89639-9",
+              "display": "Nocardia sp identified in Implanted device by Organism specific culture"
+            },
+            {
+              "code": "88531-9",
+              "display": "Parainfluenza virus identified in Cornea or Conjunctiva by Organism specific culture"
+            },
+            {
+              "code": "21442-9",
+              "display": "Parainfluenza virus identified in Nose by Organism specific culture"
+            },
+            {
+              "code": "53645-8",
+              "display": "Polio virus identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "17530-7",
+              "display": "Retrovirus identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "6544-1",
+              "display": "Rickettsia sp identified in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "6545-8",
+              "display": "Rickettsia sp identified in Sputum by Organism specific culture"
+            },
+            {
+              "code": "20953-6",
+              "display": "Salmonella sp identified in Tissue by Organism specific culture"
+            },
+            {
+              "code": "87991-6",
+              "display": "Acanthamoeba sp identified in Contact lens by Organism specific culture"
+            },
+            {
+              "code": "88162-3",
+              "display": "Acanthamoeba sp identified in Cornea or Conjunctiva by Organism specific culture"
+            },
+            {
+              "code": "10635-1",
+              "display": "Acanthamoeba sp identified in Eye by Organism specific culture"
+            },
+            {
+              "code": "9781-6",
+              "display": "Acanthamoeba sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "90003-5",
+              "display": "Acinetobacter sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "29885-1",
+              "display": "Actinobacillus sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "89633-2",
+              "display": "Actinomyces sp identified in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "9816-0",
+              "display": "Actinomyces sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "10639-3",
+              "display": "Thermophilic Actinomycetes identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "9782-4",
+              "display": "Adenovirus sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "10643-5",
+              "display": "Amoeba identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "69410-9",
+              "display": "Haemophilus influenzae [Identifier] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "90072-0",
+              "display": "Haemophilus and Neisseria species identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "6600-1",
+              "display": "Haemophilus sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "35427-4",
+              "display": "Herpes simplex virus identified in Peritoneal fluid by Organism specific culture"
+            },
+            {
+              "code": "35426-6",
+              "display": "Herpes simplex virus identified in Pleural fluid by Organism specific culture"
+            },
+            {
+              "code": "88606-9",
+              "display": "Herpes simplex virus identified in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "35429-0",
+              "display": "Herpes simplex virus identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "5859-4",
+              "display": "Herpes simplex virus identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "20445-3",
+              "display": "Herpes virus identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "6317-2",
+              "display": "Bordetella sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "6323-0",
+              "display": "Borrelia sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "24409-5",
+              "display": "Brachyspira sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "24003-6",
+              "display": "Brucella sp identified in Bone marrow by Organism specific culture"
+            },
+            {
+              "code": "23594-5",
+              "display": "Brucella sp identified in Semen by Organism specific culture"
+            },
+            {
+              "code": "552-0",
+              "display": "Brucella sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "88580-6",
+              "display": "Burkholderia sp identified in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "44798-7",
+              "display": "Burkholderia sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "20739-9",
+              "display": "Campylobacter sp identified in Body fluid by Organism specific culture"
+            },
+            {
+              "code": "6331-3",
+              "display": "Campylobacter sp identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "6332-1",
+              "display": "Campylobacter sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "554-6",
+              "display": "Candida sp identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "555-3",
+              "display": "Candida sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "38393-5",
+              "display": "Legionella sp identified in Pleural fluid by Organism specific culture"
+            },
+            {
+              "code": "88585-5",
+              "display": "Legionella sp identified in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "590-0",
+              "display": "Legionella sp identified in Sputum by Organism specific culture"
+            },
+            {
+              "code": "593-4",
+              "display": "Legionella sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "87987-4",
+              "display": "Leishmania sp identified in Blood by Organism specific culture"
+            },
+            {
+              "code": "51710-2",
+              "display": "Leishmania sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "594-2",
+              "display": "Leptospira sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "6609-2",
+              "display": "Listeria sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "48873-4",
+              "display": "Ehrlichia sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "100901-8",
+              "display": "Enterobacteriaceae.carbapenemase resistance phenotype [Identifier] in Anal by Organism specific culture"
+            },
+            {
+              "code": "100907-5",
+              "display": "Vancomycin resistant enterococcus [Identifier] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "5839-6",
+              "display": "Enterovirus identified in Cerebral spinal fluid by Organism specific culture"
+            },
+            {
+              "code": "5842-0",
+              "display": "Enterovirus identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "53955-1",
+              "display": "Escherichia coli O157 identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "38376-0",
+              "display": "Cryptococcus sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "27907-5",
+              "display": "Cryptosporidium sp [Identifier] in Stool by Organism specific culture"
+            },
+            {
+              "code": "20688-8",
+              "display": "Aspergillus sp identified in Litter by Organism specific culture"
+            },
+            {
+              "code": "38354-7",
+              "display": "Bartonella sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "45100-5",
+              "display": "Chlamydia sp identified in Vaginal fluid by Organism specific culture"
+            },
+            {
+              "code": "560-3",
+              "display": "Chlamydia sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "23601-8",
+              "display": "Mareks disease virus serotype [Identifier] in Tissue by Organism specific culture"
+            },
+            {
+              "code": "88568-1",
+              "display": "Influenza virus identified in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "6602-7",
+              "display": "Influenza virus identified in Sputum tracheal aspirate by Organism specific culture"
+            },
+            {
+              "code": "6604-3",
+              "display": "Influenza virus identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "6539-1",
+              "display": "Rabies virus identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "89652-2",
+              "display": "Human metapneumovirus identified in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "532-2",
+              "display": "Mycobacterium sp identified in Aspirate by Organism specific culture"
+            },
+            {
+              "code": "533-0",
+              "display": "Mycobacterium sp identified in Blood by Organism specific culture"
+            },
+            {
+              "code": "540-5",
+              "display": "Mycobacterium sp identified in Tissue by Organism specific culture"
+            },
+            {
+              "code": "541-3",
+              "display": "Mycobacterium sp identified in Urine by Organism specific culture"
+            },
+            {
+              "code": "542-1",
+              "display": "Mycobacterium sp identified in Wound by Organism specific culture"
+            },
+            {
+              "code": "14486-5",
+              "display": "Mycoplasma sp and Ureaplasma sp [Identifier] in Penis by Organism specific culture"
+            },
+            {
+              "code": "14487-3",
+              "display": "Mycoplasma sp and Ureaplasma sp [Identifier] in Urethra by Organism specific culture"
+            },
+            {
+              "code": "6486-5",
+              "display": "Mycoplasma sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "683-3",
+              "display": "Genital Mycoplasma identified in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "91776-5",
+              "display": "Respiratory Mycoplasma identified in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "684-1",
+              "display": "Respiratory Mycoplasma identified in Sputum by Organism specific culture"
+            },
+            {
+              "code": "685-8",
+              "display": "Respiratory Mycoplasma identified in Throat by Organism specific culture"
+            },
+            {
+              "code": "43387-0",
+              "display": "Neisseria sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "89638-1",
+              "display": "Nocardia sp identified in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "43365-6",
+              "display": "Nocardia sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "89653-0",
+              "display": "Parainfluenza virus identified in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "89654-8",
+              "display": "Parainfluenza virus identified in Upper respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "40436-8",
+              "display": "Parainfluenza virus identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "73907-8",
+              "display": "Polio virus identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "17520-8",
+              "display": "Respiratory syncytial virus identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "6546-6",
+              "display": "Rickettsia sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "6547-4",
+              "display": "Rotavirus identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "20955-1",
+              "display": "Salmonella sp identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "17563-8",
+              "display": "Salmonella sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "10716-9",
+              "display": "Schistosoma sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "88586-3",
+              "display": "Shigella sp identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "17576-0",
+              "display": "Shigella sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "20966-8",
+              "display": "Staphylococcus sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "38353-9",
+              "display": "Streptococcus sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "87995-7",
+              "display": "Strongyloides sp identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "68458-9",
+              "display": "Trichomonas sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "10730-0",
+              "display": "Trypanosoma sp identified in Blood by Organism specific culture"
+            },
+            {
+              "code": "701-3",
+              "display": "Yersinia sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "32368-3",
+              "display": "Ureaplasma sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "6579-7",
+              "display": "Vibrio sp identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "6581-3",
+              "display": "Vibrio sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "10728-4",
+              "display": "Trichomonas sp identified in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "28549-4",
+              "display": "Yersinia sp identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "87990-8",
+              "display": "Acanthamoeba sp identified in Cerebral spinal fluid by Organism specific culture"
+            },
+            {
+              "code": "40684-3",
+              "display": "Acinetobacter sp multidrug resistant identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "35422-5",
+              "display": "Herpes simplex virus identified in Body fluid by Organism specific culture"
+            },
+            {
+              "code": "35419-1",
+              "display": "Herpes simplex virus identified in Cerebral spinal fluid by Organism specific culture"
+            },
+            {
+              "code": "35428-2",
+              "display": "Herpes simplex virus identified in Synovial fluid by Organism specific culture"
+            },
+            {
+              "code": "35423-3",
+              "display": "Herpes simplex virus identified in Vaginal fluid by Organism specific culture"
+            },
+            {
+              "code": "87945-2",
+              "display": "Borrelia sp identified in Cerebral spinal fluid by Organism specific culture"
+            },
+            {
+              "code": "87986-6",
+              "display": "Leishmania sp identified in Bone marrow by Organism specific culture"
+            },
+            {
+              "code": "6454-3",
+              "display": "Leptospira sp identified in Cerebral spinal fluid by Organism specific culture"
+            },
+            {
+              "code": "100902-6",
+              "display": "Enterobacteriaceae.carbapenemase resistance phenotype.OXA-48 [Identifier] in Anal by Organism specific culture"
+            },
+            {
+              "code": "13318-1",
+              "display": "Escherichia coli enteroinvasive identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "16832-8",
+              "display": "Escherichia coli enterotoxic identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "44089-1",
+              "display": "Escherichia coli O157:H7 [Identifier] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "16836-9",
+              "display": "Escherichia coli verotoxic identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "43979-4",
+              "display": "Aspergillus sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "73834-4",
+              "display": "Bacteria.carbapenem resistant identified in Anal by Organism specific culture"
+            },
+            {
+              "code": "73835-1",
+              "display": "Bacteria.extended spectrum beta lactamase resistance [Identifier] in Anal by Organism specific culture"
+            },
+            {
+              "code": "45099-9",
+              "display": "Chlamydia sp identified in Body fluid by Organism specific culture"
+            },
+            {
+              "code": "90070-4",
+              "display": "Gram positive catalase producing cocci identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "90071-2",
+              "display": "Gram positive non-catalase producing cocci identified in Isolate by Organism specific culture"
+            },
+            {
+              "code": "76687-3",
+              "display": "Mycobacterium sp identified in Bronchoalveolar lavage by Organism specific culture"
+            },
+            {
+              "code": "90284-1",
+              "display": "Mycobacterium sp identified in Bile fluid by Organism specific culture"
+            },
+            {
+              "code": "9823-6",
+              "display": "Mycobacterium sp identified in Bronchial specimen by Organism specific culture"
+            },
+            {
+              "code": "88167-2",
+              "display": "Mycobacterium sp identified in Cornea or Conjunctiva by Organism specific culture"
+            },
+            {
+              "code": "30045-9",
+              "display": "Mycobacterium sp identified in Dialysis fluid by Organism specific culture"
+            },
+            {
+              "code": "9824-4",
+              "display": "Mycobacterium sp identified in Gastric fluid by Organism specific culture"
+            },
+            {
+              "code": "89637-3",
+              "display": "Mycobacterium sp identified in Implanted device by Organism specific culture"
+            },
+            {
+              "code": "88168-0",
+              "display": "Mycobacterium sp identified in Ocular fluid by Organism specific culture"
+            },
+            {
+              "code": "537-1",
+              "display": "Mycobacterium sp identified in Peritoneal fluid by Organism specific culture"
+            },
+            {
+              "code": "53909-8",
+              "display": "Mycobacterium sp identified in Pleural fluid by Organism specific culture"
+            },
+            {
+              "code": "89636-5",
+              "display": "Mycobacterium sp identified in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "539-7",
+              "display": "Mycobacterium sp identified in Sputum by Organism specific culture"
+            },
+            {
+              "code": "543-9",
+              "display": "Mycobacterium sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "14484-0",
+              "display": "Mycoplasma sp and Ureaplasma sp [Identifier] in Cervix by Organism specific culture"
+            },
+            {
+              "code": "687-4",
+              "display": "Mycoplasma sp and Ureaplasma sp [Identifier] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "686-6",
+              "display": "Respiratory Mycoplasma identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "43371-4",
+              "display": "Salmonella and Shigella sp identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "42255-0",
+              "display": "Salmonella and Shigella sp identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "100899-4",
+              "display": "Enterobacteriaceae.extended spectrum beta lactamase resistance phenotype [Identifier] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "94151-8",
+              "display": "Bacteria.carbapenem resistant identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "97758-7",
+              "display": "Fungus and Mycobacterium sp identified in Blood by Organism specific culture"
+            },
+            {
+              "code": "535-5",
+              "display": "Mycobacterium sp identified in Body fluid by Organism specific culture"
+            },
+            {
+              "code": "536-3",
+              "display": "Mycobacterium sp identified in Bone marrow by Organism specific culture"
+            },
+            {
+              "code": "534-8",
+              "display": "Mycobacterium sp identified in Cerebral spinal fluid by Organism specific culture"
+            },
+            {
+              "code": "538-9",
+              "display": "Mycobacterium sp identified in Synovial fluid by Organism specific culture"
+            },
+            {
+              "code": "44851-4",
+              "display": "Mycobacterium sp # 2 identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "44852-2",
+              "display": "Mycobacterium sp # 3 identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "44854-8",
+              "display": "Mycobacterium sp # 4 identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "44855-5",
+              "display": "Mycobacterium sp # 5 identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "14485-7",
+              "display": "Mycoplasma sp and Ureaplasma sp [Identifier] in Vaginal fluid by Organism specific culture"
+            },
+            {
+              "code": "90435-9",
+              "display": "Microorganism preliminary growth [Presence] in Blood by Aerobe culture"
+            },
+            {
+              "code": "87445-3",
+              "display": "Fungus [Presence] in Food by Culture"
+            },
+            {
+              "code": "16835-1",
+              "display": "Escherichia coli shiga-like toxin identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "45335-7",
+              "display": "Bacteria Identification [Presence] in Isolate by Culture"
+            },
+            {
+              "code": "86319-1",
+              "display": "Staphylococcus aureus [Presence] in Food by Culture"
+            },
+            {
+              "code": "20762-1",
+              "display": "Clostridioides difficile [Presence] in Stool by Aerobe culture"
+            },
+            {
+              "code": "87241-6",
+              "display": "Bacillus atrophaeus [Presence] in Laboratory device by Culture"
+            },
+            {
+              "code": "87242-4",
+              "display": "Geobacillus stearothermophilus [Presence] in Laboratory device by Culture"
+            },
+            {
+              "code": "62454-4",
+              "display": "Herpes simplex virus and Varicella zoster virus identified in Specimen by Organism specific culture"
+            },
+            {
+              "code": "48806-4",
+              "display": "Salmonella sp+Shigella sp+Escherichia coli enterotoxic identified in Stool by Organism specific culture"
+            },
+            {
+              "code": "82302-1",
+              "display": "Campylobacter sp [Presence] in Stool by Culture"
+            },
+            {
+              "code": "82304-7",
+              "display": "Plesiomonas shigelloides [Presence] in Stool by Culture"
+            },
+            {
+              "code": "82301-3",
+              "display": "Salmonella sp [Presence] in Stool by Culture"
+            },
+            {
+              "code": "82300-5",
+              "display": "Shigella sp [Presence] in Stool by Culture"
+            },
+            {
+              "code": "82298-1",
+              "display": "Yersinia enterocolitica [Presence] in Specimen by Culture"
+            },
+            {
+              "code": "90429-2",
+              "display": "Microorganism preliminary growth [Presence] in Body fluid by Aerobe culture"
+            },
+            {
+              "code": "82303-9",
+              "display": "Escherichia coli O157 [Presence] in Stool by Culture"
+            },
+            {
+              "code": "90434-2",
+              "display": "Microorganism preliminary growth [Presence] in Platelets from Blood product unit by Aerobe culture"
+            },
+            {
+              "code": "88902-2",
+              "display": "Adenovirus [Presence] in Urine by Organism specific culture"
+            },
+            {
+              "code": "20871-0",
+              "display": "Listeria sp [Presence] in Cheese by Organism specific culture"
+            },
+            {
+              "code": "20870-2",
+              "display": "Listeria sp [Presence] in Milk by Organism specific culture"
+            },
+            {
+              "code": "100909-1",
+              "display": "Cronobacter sakazakii [Presence] by Organism specific culture"
+            },
+            {
+              "code": "18483-8",
+              "display": "Yeast [Presence] in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "88899-0",
+              "display": "Adenovirus [Presence] in Cornea or Conjunctiva by Organism specific culture"
+            },
+            {
+              "code": "43879-6",
+              "display": "Bordetella parapertussis [Presence] in Nasopharynx by Organism specific culture"
+            },
+            {
+              "code": "20869-4",
+              "display": "Leptospira sp [Presence] in Tissue by Organism specific culture"
+            },
+            {
+              "code": "87314-1",
+              "display": "Encephalomyocarditis virus [Presence] in Tissue by Organism specific culture"
+            },
+            {
+              "code": "33695-8",
+              "display": "Clostridium botulinum [Presence] in Isolate by Organism specific culture"
+            },
+            {
+              "code": "5836-2",
+              "display": "Cytomegalovirus [Presence] in Tissue by Organism specific culture"
+            },
+            {
+              "code": "5837-0",
+              "display": "Cytomegalovirus [Presence] in Urine by Organism specific culture"
+            },
+            {
+              "code": "91780-7",
+              "display": "Measles virus [Presence] in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "91786-4",
+              "display": "Measles virus [Presence] in Upper respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "91787-2",
+              "display": "Mumps virus [Presence] in Upper respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "20899-1",
+              "display": "Mycoplasma sp [Presence] in Exudate by Organism specific culture"
+            },
+            {
+              "code": "20898-3",
+              "display": "Mycoplasma sp [Presence] in Milk by Organism specific culture"
+            },
+            {
+              "code": "91781-5",
+              "display": "Neisseria gonorrhoeae [Presence] in Aspirate by Organism specific culture"
+            },
+            {
+              "code": "100908-3",
+              "display": "Pseudomonas aeruginosa [Presence] in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "91782-3",
+              "display": "Respiratory syncytial virus [Presence] in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "91785-6",
+              "display": "Respiratory syncytial virus [Presence] in Upper respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "89632-4",
+              "display": "Toxoplasma gondii [Presence] in Placenta by Organism specific culture"
+            },
+            {
+              "code": "14838-7",
+              "display": "Toxoplasma gondii [Presence] in Tissue by Organism specific culture"
+            },
+            {
+              "code": "55095-4",
+              "display": "Adenovirus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "91789-8",
+              "display": "Haemophilus ducreyi [Presence] in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "48741-3",
+              "display": "Bordetella pertussis [Presence] in Nasopharynx by Organism specific culture"
+            },
+            {
+              "code": "548-8",
+              "display": "Bordetella pertussis [Presence] in Throat by Organism specific culture"
+            },
+            {
+              "code": "100911-7",
+              "display": "Campylobacter sp [Presence] in Stool by Organism specific culture"
+            },
+            {
+              "code": "6595-3",
+              "display": "Klebsiella granulomatis [Presence] in Isolate by Organism specific culture"
+            },
+            {
+              "code": "86322-5",
+              "display": "Enterovirus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "33677-6",
+              "display": "Francisella tularensis [Presence] in Isolate by Organism specific culture"
+            },
+            {
+              "code": "97940-1",
+              "display": "Cryptococcus sp [Presence] in Isolate by Organism specific culture"
+            },
+            {
+              "code": "5835-4",
+              "display": "Cytomegalovirus [Presence] in Blood by Organism specific culture"
+            },
+            {
+              "code": "32675-1",
+              "display": "Cytomegalovirus [Presence] in Bronchial specimen by Organism specific culture"
+            },
+            {
+              "code": "91783-1",
+              "display": "Cytomegalovirus [Presence] in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "20860-3",
+              "display": "Infectious bronchitis virus [Presence] in Tissue by Organism specific culture"
+            },
+            {
+              "code": "51723-5",
+              "display": "Fungus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "13921-2",
+              "display": "Mumps virus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "14127-5",
+              "display": "Neisseria gonorrhoeae [Presence] in Anal by Organism specific culture"
+            },
+            {
+              "code": "80368-4",
+              "display": "Neisseria gonorrhoeae [Presence] in Anorectal by Organism specific culture"
+            },
+            {
+              "code": "690-8",
+              "display": "Neisseria gonorrhoeae [Presence] in Endometrium by Organism specific culture"
+            },
+            {
+              "code": "696-5",
+              "display": "Neisseria gonorrhoeae [Presence] in Throat by Organism specific culture"
+            },
+            {
+              "code": "697-3",
+              "display": "Neisseria gonorrhoeae [Presence] in Urethra by Organism specific culture"
+            },
+            {
+              "code": "88527-7",
+              "display": "Respiratory syncytial virus [Presence] in Cornea or Conjunctiva by Organism specific culture"
+            },
+            {
+              "code": "14129-1",
+              "display": "Respiratory syncytial virus [Presence] in Nose by Organism specific culture"
+            },
+            {
+              "code": "20962-7",
+              "display": "Serpulina hyodysenteria [Presence] in Spiral colon by Organism specific culture"
+            },
+            {
+              "code": "546-2",
+              "display": "Streptococcus.beta-hemolytic [Presence] in Throat by Organism specific culture"
+            },
+            {
+              "code": "23605-9",
+              "display": "Tritrichomonas foetus [Presence] in Placenta by Organism specific culture"
+            },
+            {
+              "code": "18482-0",
+              "display": "Yeast [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "33686-7",
+              "display": "Yersinia pestis [Presence] in Isolate by Organism specific culture"
+            },
+            {
+              "code": "88898-2",
+              "display": "Adenovirus [Presence] in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "88900-6",
+              "display": "Adenovirus [Presence] in Upper respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "88901-4",
+              "display": "Adenovirus [Presence] in Stool by Organism specific culture"
+            },
+            {
+              "code": "30122-6",
+              "display": "Aeromonas sp [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "11255-7",
+              "display": "Haemophilus ducreyi [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "44015-6",
+              "display": "Helicobacter pylori [Presence] in Gastric fluid by Organism specific culture"
+            },
+            {
+              "code": "87953-6",
+              "display": "Helicobacter pylori [Presence] in Tissue by Organism specific culture"
+            },
+            {
+              "code": "44468-7",
+              "display": "Herpes simplex virus 1 [Presence] in Anal by Organism specific culture"
+            },
+            {
+              "code": "44464-6",
+              "display": "Herpes simplex virus 1 [Presence] in Skin by Organism specific culture"
+            },
+            {
+              "code": "44466-1",
+              "display": "Herpes simplex virus 1 [Presence] in Throat by Organism specific culture"
+            },
+            {
+              "code": "20702-7",
+              "display": "Bluetongue virus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "43925-7",
+              "display": "Bordetella parapertussis [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "43896-0",
+              "display": "Bordetella pertussis [Presence] in Pleural fluid by Organism specific culture"
+            },
+            {
+              "code": "43890-3",
+              "display": "Bordetella pertussis [Presence] in Sputum by Organism specific culture"
+            },
+            {
+              "code": "549-6",
+              "display": "Bordetella pertussis [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "16483-0",
+              "display": "Borrelia hermsii [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "20716-7",
+              "display": "Bovine diarrhea virus [Presence] in Serum by Organism specific culture"
+            },
+            {
+              "code": "23593-7",
+              "display": "Bovine leukemia virus [Presence] in Blood by Organism specific culture"
+            },
+            {
+              "code": "44797-9",
+              "display": "Brucella sp [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "70850-3",
+              "display": "Burkholderia mallei [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "70851-1",
+              "display": "Burkholderia pseudomallei [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "44800-1",
+              "display": "Burkholderia sp [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "97513-6",
+              "display": "Campylobacter sp [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "90002-7",
+              "display": "Candida auris [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "59150-3",
+              "display": "Vancomycin resistant enterococcus [Presence] in Anal by Organism specific culture"
+            },
+            {
+              "code": "59151-1",
+              "display": "Vancomycin resistant enterococcus [Presence] in Urine by Organism specific culture"
+            },
+            {
+              "code": "20807-4",
+              "display": "Equine arteritis virus [Presence] in Blood by Organism specific culture"
+            },
+            {
+              "code": "96356-1",
+              "display": "Equine herpesvirus 3 [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "96357-9",
+              "display": "Equine herpesvirus 4 [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "86724-2",
+              "display": "Erysipelothrix rhusiopathiae [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "33676-8",
+              "display": "Francisella tularensis [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "562-9",
+              "display": "Clostridioides difficile [Presence] in Stool by Organism specific culture"
+            },
+            {
+              "code": "563-7",
+              "display": "Clostridioides difficile [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "87948-6",
+              "display": "Clostridium botulinum [Presence] in Stool by Organism specific culture"
+            },
+            {
+              "code": "33694-1",
+              "display": "Clostridium botulinum [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "77496-8",
+              "display": "Clostridium perfringens [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "88584-8",
+              "display": "Corynebacterium diphtheriae [Presence] in Upper respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "16676-9",
+              "display": "Corynebacterium diphtheriae [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "88625-9",
+              "display": "Cytomegalovirus [Presence] in Ocular fluid by Organism specific culture"
+            },
+            {
+              "code": "5838-8",
+              "display": "Cytomegalovirus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "37982-6",
+              "display": "Avian paramyxovirus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "77495-0",
+              "display": "Bacillus cereus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "45096-5",
+              "display": "Chlamydia trachomatis [Presence] in Nasopharynx by Organism specific culture"
+            },
+            {
+              "code": "21284-5",
+              "display": "Gardnerella vaginalis [Presence] in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "90275-9",
+              "display": "Gardnerella vaginalis [Presence] in Vaginal fluid by Organism specific culture"
+            },
+            {
+              "code": "76626-1",
+              "display": "Measles virus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "64412-0",
+              "display": "Mycobacterium sp [Presence] in Blood by Organism specific culture"
+            },
+            {
+              "code": "20902-3",
+              "display": "Mycoplasma sp+Ureaplasma sp [Presence] in Tissue by Organism specific culture"
+            },
+            {
+              "code": "97529-2",
+              "display": "Naegleria fowleri [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "30099-6",
+              "display": "Neisseria gonorrhoeae [Presence] in Conjunctival specimen by Organism specific culture"
+            },
+            {
+              "code": "688-2",
+              "display": "Neisseria gonorrhoeae [Presence] in Cervix by Organism specific culture"
+            },
+            {
+              "code": "691-6",
+              "display": "Neisseria gonorrhoeae [Presence] in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "694-0",
+              "display": "Neisseria gonorrhoeae [Presence] in Semen by Organism specific culture"
+            },
+            {
+              "code": "698-1",
+              "display": "Neisseria gonorrhoeae [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "91788-0",
+              "display": "Neisseria meningitidis [Presence] in Upper respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "87958-5",
+              "display": "Neisseria meningitidis [Presence] in Throat by Organism specific culture"
+            },
+            {
+              "code": "48874-2",
+              "display": "Neorickettsia sp [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "86204-5",
+              "display": "Porcine deltacoronavirus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "87388-5",
+              "display": "Porcine sapelovirus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "87399-2",
+              "display": "Porcine teschovirus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "55100-2",
+              "display": "Respiratory syncytial virus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "86689-7",
+              "display": "Rotavirus A [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "86688-9",
+              "display": "Rotavirus C [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "34891-2",
+              "display": "Salmonella enteritidis [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "87345-5",
+              "display": "Senecavirus A [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "20963-5",
+              "display": "Serpulina hyodysenteria [Presence] in Stool by Organism specific culture"
+            },
+            {
+              "code": "46454-5",
+              "display": "Shigella sp [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "100897-8",
+              "display": "Staphylococcus aureus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "76081-9",
+              "display": "Methicillin resistant Staphylococcus aureus [Presence] in Pharynx by Organism specific culture"
+            },
+            {
+              "code": "11267-2",
+              "display": "Streptococcus.beta-hemolytic [Presence] in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "547-0",
+              "display": "Streptococcus.beta-hemolytic [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "23603-4",
+              "display": "Taylorella equigenitalis [Presence] in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "88161-5",
+              "display": "Toxoplasma gondii [Presence] in Ocular fluid by Organism specific culture"
+            },
+            {
+              "code": "91790-6",
+              "display": "Trichomonas vaginalis [Presence] in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "20976-7",
+              "display": "Tritrichomonas foetus [Presence] in Preputial wash by Organism specific culture"
+            },
+            {
+              "code": "33685-9",
+              "display": "Yersinia pestis [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "17852-5",
+              "display": "Ureaplasma urealyticum [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "48872-6",
+              "display": "Anaplasma phagocytophilum [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "87952-8",
+              "display": "Helicobacter pylori [Presence] in Stool by Organism specific culture"
+            },
+            {
+              "code": "587-6",
+              "display": "Helicobacter pylori [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "44467-9",
+              "display": "Herpes simplex virus 1 [Presence] in Cervix by Organism specific culture"
+            },
+            {
+              "code": "44465-3",
+              "display": "Herpes simplex virus 1 [Presence] in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "16291-7",
+              "display": "Herpes simplex virus 1 [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "44490-1",
+              "display": "Herpes simplex virus 2 [Presence] in Anal by Organism specific culture"
+            },
+            {
+              "code": "44489-3",
+              "display": "Herpes simplex virus 2 [Presence] in Cervix by Organism specific culture"
+            },
+            {
+              "code": "44487-7",
+              "display": "Herpes simplex virus 2 [Presence] in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "44486-9",
+              "display": "Herpes simplex virus 2 [Presence] in Skin by Organism specific culture"
+            },
+            {
+              "code": "44488-5",
+              "display": "Herpes simplex virus 2 [Presence] in Throat by Organism specific culture"
+            },
+            {
+              "code": "11550-1",
+              "display": "Borrelia burgdorferi [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "94620-2",
+              "display": "Bovine diarrhea virus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "94618-6",
+              "display": "Bovine respiratory syncytial virus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "77924-9",
+              "display": "Enterobacteriaceae.carbapenem resistant [Presence] in Anorectal or stool specimen by Organism specific culture"
+            },
+            {
+              "code": "13316-5",
+              "display": "Vancomycin resistant enterococcus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "94600-4",
+              "display": "Equine influenza virus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "44090-9",
+              "display": "Escherichia coli O157:H7 [Presence] in Isolate by Organism specific culture"
+            },
+            {
+              "code": "20823-1",
+              "display": "Escherichia coli O157:H7 [Presence] in Raw milk by Organism specific culture"
+            },
+            {
+              "code": "44799-5",
+              "display": "Coxiella burnetii [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "38377-8",
+              "display": "Cryptococcus neoformans [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "34201-4",
+              "display": "Cytomegalovirus [Presence] in Amniotic fluid by Organism specific culture"
+            },
+            {
+              "code": "88564-0",
+              "display": "Cytomegalovirus [Presence] in Bone marrow by Organism specific culture"
+            },
+            {
+              "code": "88623-4",
+              "display": "Cytomegalovirus [Presence] in Cerebral spinal fluid by Organism specific culture"
+            },
+            {
+              "code": "11469-4",
+              "display": "Bacillus anthracis [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "45093-2",
+              "display": "Chlamydia trachomatis [Presence] in Anal by Organism specific culture"
+            },
+            {
+              "code": "80367-6",
+              "display": "Chlamydia trachomatis [Presence] in Anorectal by Organism specific culture"
+            },
+            {
+              "code": "14461-8",
+              "display": "Chlamydia trachomatis [Presence] in Blood by Organism specific culture"
+            },
+            {
+              "code": "45094-0",
+              "display": "Chlamydia trachomatis [Presence] in Conjunctival specimen by Organism specific culture"
+            },
+            {
+              "code": "14463-4",
+              "display": "Chlamydia trachomatis [Presence] in Cervix by Organism specific culture"
+            },
+            {
+              "code": "45095-7",
+              "display": "Chlamydia trachomatis [Presence] in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "89648-0",
+              "display": "Chlamydia trachomatis [Presence] in Throat by Organism specific culture"
+            },
+            {
+              "code": "87950-2",
+              "display": "Chlamydia trachomatis [Presence] in Tissue by Organism specific culture"
+            },
+            {
+              "code": "14465-9",
+              "display": "Chlamydia trachomatis [Presence] in Urethra by Organism specific culture"
+            },
+            {
+              "code": "10670-8",
+              "display": "Giardia lamblia [Presence] in Stool by Organism specific culture"
+            },
+            {
+              "code": "48310-7",
+              "display": "Influenza virus A [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "38382-8",
+              "display": "Influenza virus B [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "90438-3",
+              "display": "Mycobacterium preliminary growth [Presence] in Tissue by Organism specific culture"
+            },
+            {
+              "code": "50941-4",
+              "display": "Mycobacterium sp [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "15388-2",
+              "display": "Mycoplasma hominis [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "692-4",
+              "display": "Neisseria gonorrhoeae [Presence] in Genital lochia by Organism specific culture"
+            },
+            {
+              "code": "693-2",
+              "display": "Neisseria gonorrhoeae [Presence] in Vaginal fluid by Organism specific culture"
+            },
+            {
+              "code": "16134-9",
+              "display": "Neisseria meningitidis [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "87324-0",
+              "display": "Porcine circovirus type 2 [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "86200-3",
+              "display": "Porcine epidemic diarrhea virus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "86733-3",
+              "display": "Porcine parvovirus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "63480-8",
+              "display": "Pseudomonas aeruginosa.multidrug resistant isolate [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "23602-6",
+              "display": "Salmonella enteritidis [Presence] in Stool by Organism specific culture"
+            },
+            {
+              "code": "53572-4",
+              "display": "Methicillin resistant Staphylococcus aureus [Presence] in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "52969-3",
+              "display": "Methicillin resistant Staphylococcus aureus [Presence] in Nose by Organism specific culture"
+            },
+            {
+              "code": "11268-0",
+              "display": "Streptococcus pyogenes [Presence] in Throat by Organism specific culture"
+            },
+            {
+              "code": "90301-3",
+              "display": "Toxoplasma gondii [Presence] in Amniotic fluid by Organism specific culture"
+            },
+            {
+              "code": "87982-5",
+              "display": "Toxoplasma gondii [Presence] in Bone marrow by Organism specific culture"
+            },
+            {
+              "code": "89599-5",
+              "display": "Toxoplasma gondii [Presence] in Cerebral spinal fluid by Organism specific culture"
+            },
+            {
+              "code": "90285-8",
+              "display": "Trichomonas vaginalis [Presence] in Vaginal fluid by Organism specific culture"
+            },
+            {
+              "code": "23604-2",
+              "display": "Tritrichomonas foetus [Presence] in Body fluid by Organism specific culture"
+            },
+            {
+              "code": "23606-7",
+              "display": "Tritrichomonas foetus [Presence] in Genital fluid by Organism specific culture"
+            },
+            {
+              "code": "88135-9",
+              "display": "Varicella zoster virus [Presence] in Cornea or Conjunctiva by Organism specific culture"
+            },
+            {
+              "code": "88136-7",
+              "display": "Varicella zoster virus [Presence] in Ocular fluid by Organism specific culture"
+            },
+            {
+              "code": "91784-9",
+              "display": "Varicella zoster virus [Presence] in Lower respiratory specimen by Organism specific culture"
+            },
+            {
+              "code": "44463-8",
+              "display": "Herpes simplex virus 1 [Presence] in Vaginal fluid by Organism specific culture"
+            },
+            {
+              "code": "44485-1",
+              "display": "Herpes simplex virus 2 [Presence] in Vaginal fluid by Organism specific culture"
+            },
+            {
+              "code": "44484-4",
+              "display": "Herpes simplex virus 2 [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "94619-4",
+              "display": "Bovine herpesvirus 1 [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "96358-7",
+              "display": "Bovine parainfluenza virus 3 [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "96355-3",
+              "display": "Equine herpesvirus 1 [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "10851-4",
+              "display": "Escherichia coli O157:H7 [Presence] in Stool by Organism specific culture"
+            },
+            {
+              "code": "14462-6",
+              "display": "Chlamydia trachomatis [Presence] in Cerebral spinal fluid by Organism specific culture"
+            },
+            {
+              "code": "14467-5",
+              "display": "Chlamydia trachomatis [Presence] in Urine sediment by Organism specific culture"
+            },
+            {
+              "code": "14464-2",
+              "display": "Chlamydia trachomatis [Presence] in Vaginal fluid by Organism specific culture"
+            },
+            {
+              "code": "6349-5",
+              "display": "Chlamydia trachomatis [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "21184-7",
+              "display": "Chlamydophila pneumoniae [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "59065-3",
+              "display": "Chlamydophila psittaci [Presence] in Bronchial brush by Organism specific culture"
+            },
+            {
+              "code": "20752-2",
+              "display": "Chlamydophila psittaci [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "90436-7",
+              "display": "Microorganism preliminary growth [Presence] in Body fluid by Organism specific culture"
+            },
+            {
+              "code": "20892-6",
+              "display": "Mycobacterium avium ss paratuberculosis [Presence] in Tissue by Organism specific culture"
+            },
+            {
+              "code": "91590-0",
+              "display": "Mycobacterium preliminary growth [Presence] in Body fluid by Organism specific culture"
+            },
+            {
+              "code": "90433-4",
+              "display": "Mycobacterium preliminary growth [Presence] in Sputum by Organism specific culture"
+            },
+            {
+              "code": "19054-6",
+              "display": "Mycoplasma pneumoniae [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "695-7",
+              "display": "Neisseria gonorrhoeae [Presence] in Synovial fluid by Organism specific culture"
+            },
+            {
+              "code": "86581-6",
+              "display": "Neisseria meningitidis [Presence] in Cerebral spinal fluid by Organism specific culture"
+            },
+            {
+              "code": "48875-9",
+              "display": "Orientia tsutsugamushi [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "55097-0",
+              "display": "Parainfluenza virus 1 [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "55098-8",
+              "display": "Parainfluenza virus 2 [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "55099-6",
+              "display": "Parainfluenza virus 3 [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "87341-4",
+              "display": "Pseudorabies virus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "13317-3",
+              "display": "Methicillin resistant Staphylococcus aureus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "52968-5",
+              "display": "Streptococcus agalactiae [Presence] in Anal by Organism specific culture"
+            },
+            {
+              "code": "581-9",
+              "display": "Streptococcus agalactiae [Presence] in Cervix by Organism specific culture"
+            },
+            {
+              "code": "582-7",
+              "display": "Streptococcus agalactiae [Presence] in Genital specimen by Organism specific culture"
+            },
+            {
+              "code": "585-0",
+              "display": "Streptococcus agalactiae [Presence] in Throat by Organism specific culture"
+            },
+            {
+              "code": "17656-0",
+              "display": "Streptococcus pyogenes [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "81316-2",
+              "display": "Trichomonas vaginalis [Presence] in Urine sediment by Organism specific culture"
+            },
+            {
+              "code": "10860-5",
+              "display": "Varicella zoster virus [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "24427-7",
+              "display": "Mycobacterium avium ss paratuberculosis [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "94763-0",
+              "display": "SARS-CoV-2 (COVID-19) [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "583-5",
+              "display": "Streptococcus agalactiae [Presence] in Genital lochia by Organism specific culture"
+            },
+            {
+              "code": "584-3",
+              "display": "Streptococcus agalactiae [Presence] in Vaginal fluid by Organism specific culture"
+            },
+            {
+              "code": "72607-5",
+              "display": "Streptococcus agalactiae [Presence] in Vag+Rectum by Organism specific culture"
+            },
+            {
+              "code": "586-8",
+              "display": "Streptococcus agalactiae [Presence] in Specimen by Organism specific culture"
+            },
+            {
+              "code": "20893-4",
+              "display": "Mycobacterium avium ss paratuberculosis [Presence] in Stool by Organism specific culture"
+            },
+            {
+              "code": "74312-0",
+              "display": "PRRSV [Presence] in Specimen by Organism specific culture"
+            }
+          ]
+        }
+      ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>MII VS Mikrobio Kultur tests [LOINC]</h2><tt>https://amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_culture_test_loinc</tt></div>"
+    },
+    "name": "vs_amr_microbiology_culture_test_loinc"
+  }

@@ -1,0 +1,64 @@
+{
+    "resourceType": "ValueSet",
+    "url": "https://amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_microscopy_method_snomed",
+    "title": "VS AMR Microbiology Microscopy[SNOMED CT]",
+    "name": "vs_amr_microbiology_microscopy_method_snomed",
+    "status": "active",
+    "version": "0.0.1",
+    "compose": {
+      "include": [
+        {
+          "system": "http://snomed.info/sct",
+          "concept": [
+            {
+              "code": "58586006",
+              "display": "Microbial ova-parasite examination (procedure)"
+            },
+            {
+              "code": "117023006",
+              "display": "Thick film peripheral blood smear (procedure)"
+            },
+            {
+              "code": "408195004",
+              "display": "Thick film for malarial parasites (procedure)"
+            },
+            {
+              "code": "117024000",
+              "display": "Thin film peripheral blood smear method (procedure)"
+            },
+            {
+              "code": "67047002",
+              "display": "Microbial wet smear (procedure)"
+            },
+            {
+              "code": "27318003",
+              "display": "Potassium hydroxide preparation (procedure)"
+            },
+            {
+              "code": "104157003",
+              "display": "Light microscopy (procedure)"
+            },
+            {
+              "code": "73512001",
+              "display": "Electron microscopic study (procedure)"
+            }
+          ]
+        },
+        {
+          "filter": [
+            {
+              "property": "concept",
+              "op": "descendent-of",
+              "value": "37926009"
+            }
+          ],
+          "system": "http://snomed.info/sct"
+        }
+      ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>VS AMR Microbiology Microscopy Method SNOMED</h2><tt>https://amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_microscopy_method_snomed</tt></div>"
+    },
+    "id": "vs_amr_microbiology_microscopy_method_snomed"
+  }

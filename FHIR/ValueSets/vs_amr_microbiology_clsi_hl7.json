@@ -1,0 +1,42 @@
+{
+    "resourceType": "ValueSet",
+    "url": "https://www.amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_clsi_hl7",
+    "title": "VS microbiology CLSI [HL7]",
+    "name": "VS_Microbiology_CLSI_HL7",
+    "status": "active",
+    "version": "0.0.1",
+    "compose": {
+      "include": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+          "concept": [
+            {
+              "code": "S",
+              "display": "Susceptible"
+            },
+            {
+              "code": "I",
+              "display": "Intermediate"
+            },
+            {
+              "code": "SDD",
+              "display": "Susceptible- Dose Dependent"
+            },
+            {
+              "code": "R",
+              "display": "Resistant"
+            },
+            {
+              "code": "NS",
+              "display": "Nonsusceptible"
+            }
+          ]
+        }
+      ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ValueSet Microbiology CLSI [HL7]</h2><tt>https://www.amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_clsi_hl7</tt></div>"
+    },
+    "id": "VS_Microbiology_CLSI_HL7"
+  }

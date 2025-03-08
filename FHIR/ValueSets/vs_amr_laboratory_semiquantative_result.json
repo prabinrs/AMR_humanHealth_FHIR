@@ -1,0 +1,74 @@
+{
+    "resourceType": "ValueSet",
+    "status": "active",
+    "name": "vs_amr_laboratory_semiquantative_result",
+    "id": "vs_amr_laboratory_semiquantative_result",
+    "title": "VS AMR Laboratory Semiquantitative Result[SNOMED}",
+    "description": "SNOMED CT coding for semi-quantitative laboratory results",
+    "version": "2025.0.2",
+    "url": "https://www.amr.data2health.info/fhir/ValueSet/vs_amr_laboratory_semiquantative_result",
+    "meta": {
+        "profile":  [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "publisher": "prabin",
+    "contact":  [
+        {
+            "telecom":  [
+                {
+                    "system": "email",
+                    "value": "prabinrs@gmail.com"
+                }
+            ]
+        }
+    ],
+    "experimental": false,
+    "date": "2023-12-12",
+    "compose": {
+        "include":  [
+            {
+                "system": "http://snomed.info/sct",
+                "version": "http://snomed.info/sct/900000000000207008/version/20230731",
+                "concept":  [
+                    {
+                        "code": "260347006",
+                        "display": "Present + out of ++++ (qualifier value)"
+                    },
+                    {
+                        "code": "260348001",
+                        "display": "Present ++ out of ++++ (qualifier value)"
+                    },
+                    {
+                        "code": "260349009",
+                        "display": "Present +++ out of ++++ (qualifier value)"
+                    },
+                    {
+                        "code": "260350009",
+                        "display": "Present ++++ out of ++++ (qualifier value)"
+                    },
+                    {
+                        "code": "410594000",
+                        "display": "Definitely NOT present (qualifier value)"
+                    },
+                    {
+                        "code": "260405006",
+                        "display": "Trace (qualifier value)"
+                    },
+                    {
+                        "code": "441614007",
+                        "display": "Present one plus out of three plus"
+                    },
+                    {
+                        "code": "441517005",
+                        "display": "Present two plus out of three plus"
+                    },
+                    {
+                        "code": "441521003",
+                        "display": "Present three plus out of three plus"
+                    }
+                ]
+            }
+        ]
+    }
+}

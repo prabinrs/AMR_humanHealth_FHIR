@@ -1,0 +1,46 @@
+{
+    "resourceType": "ValueSet",
+    "url": "https://amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_barlettscore_loinc",
+    "title": "VS microbiology Barlett Score [LOINC]",
+    "name": "vs_amr_microbiology_barlettscore_loin",
+    "status": "active",
+    "version": "0.0.1",
+    "compose": {
+      "include": [
+        {
+          "system": "http://loinc.org",
+          "concept": [
+            {
+              "code": "LA21392-8",
+              "display": "+3 Active inflammation"
+            },
+            {
+              "code": "LA21391-0",
+              "display": "+2 Active inflammation" 
+            },
+            {
+              "code": "LA21390-2",
+              "display": "+1 Active inflammation"
+            },
+            {
+              "display": "0 Lack of inflammation and possible contamination with saliva",
+              "code": "LA21389-4"
+            },
+            {
+              "display": "-1 Lack of inflammation and possible contamination with saliva",
+              "code": "LA21388-6"
+            },
+            {
+              "display": "-2 Lack of inflammation and possible contamination with saliva",
+              "code": "LA21387-8"
+            }
+          ]
+        }
+      ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>VS AMR Microbiology Barlett Score [LOINC]</h2><tt>https://amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_barlettscore_loinc</tt></div>"
+    },
+    "id": "vs_amr_microbiology_barlettscore_loinc"
+  }

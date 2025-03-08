@@ -1,0 +1,34 @@
+{
+    "resourceType": "ValueSet",
+    "id": "SourceClinicalReferenceDate",
+    "meta": {
+        "profile":  [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "url": "https://www.amr.data2health.info/fhir/ValueSet/vs_amr_sourceClinicalReferenceDate",
+    "version": "1.0",
+    "title": "ValueSet AMR Source Clinical Reference Date",
+    "name": "vs_amr_sourceClinicalReferenceDate",
+    "status": "active",
+    "experimental": false,
+    "publisher": "https://www.amr.data2health.info",
+    "description": "AMR Surveillance Standardization Project",
+    "compose": {
+        "include":  [
+            {
+                "system": "http://snomed.info/sct",
+                "concept":  [
+                    {
+                        "code": "399445004",
+                        "display": "Specimen collection date (observable entity)"
+                    },
+                    {
+                        "code": "281271004",
+                        "display": "Date sample received in laboratory (observable entity)"
+                    }
+                ]
+            }
+        ]
+    }
+}

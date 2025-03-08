@@ -1,0 +1,55 @@
+{
+  "resourceType": "ValueSet",
+  "url": "https://www.amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_phenotype_loinc",
+  "title": "Valueset AMR Microbiology Sensetivity Phenotyp [LOINC]",
+  "name": "VS_AMR_microbiology_Phenotyp_LOINC",
+  "status": "active",
+  "version": "0.0.1",
+  "compose": {
+    "include": [
+      {
+        "filter": [
+          {
+            "property": "CLASS",
+            "op": "=",
+            "value": "ABXBACT"
+          },
+          {
+            "property": "PROPERTY",
+            "value": "LP6870-2",
+            "op": "="
+          },
+          {
+            "property": "STATUS",
+            "value": "ACTIVE",
+            "op": "="
+          },
+          {
+            "property": "ORDER_OBS",
+            "value": "Observation",
+            "op": "="
+          }
+        ],
+        "system": "http://loinc.org"
+      }
+    ],
+    "exclude": [
+      {
+        "system": "http://loinc.org",
+        "filter": [
+          {
+            "property": "METHOD_TYP",
+            "value": "LP28723-2",
+            "op": "="
+          }
+        ]
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Valueset AMR Microbiology Sensetivity Phenotyp [LOINC]</h2><tt>https://www.amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_phenotype_loinc</tt></div>"
+  },
+  "id": "vs_amr_microbiology_phenotyp_loinc",
+  "date": "2023-03-02T00:00:00.000Z"
+}

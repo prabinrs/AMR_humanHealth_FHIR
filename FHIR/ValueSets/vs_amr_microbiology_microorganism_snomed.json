@@ -1,0 +1,77 @@
+{
+    "resourceType": "ValueSet",
+    "url": "https://amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_microorganism_snomed",
+    "title": "VS AMR Microbiology Microorganism [SNOMED CT]",
+    "status": "active",
+    "version": "0.0.1",
+    "compose": {
+      "include": [
+        {
+          "filter": [
+            {
+              "property": "concept",
+              "op": "is-a",
+              "value": "409822003"
+            }
+          ],
+          "system": "http://snomed.info/sct"
+        },
+        {
+          "filter": [
+            {
+              "property": "concept",
+              "op": "is-a",
+              "value": "414561005"
+            }
+          ],
+          "system": "http://snomed.info/sct"
+        },
+        {
+          "filter": [
+            {
+              "property": "concept",
+              "op": "is-a",
+              "value": "417396000"
+            }
+          ],
+          "system": "http://snomed.info/sct"
+        },
+        {
+          "filter": [
+            {
+              "property": "concept",
+              "op": "is-a",
+              "value": "243565002"
+            }
+          ],
+          "system": "http://snomed.info/sct"
+        },
+        {
+          "filter": [
+            {
+              "value": "84676004",
+              "op": "is-a",
+              "property": "concept"
+            }
+          ],
+          "system": "http://snomed.info/sct"
+        },
+        {
+          "filter": [
+            {
+              "property": "concept",
+              "op": "is-a",
+              "value": "49872002"
+            }
+          ],
+          "system": "http://snomed.info/sct"
+        }
+      ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>MII VS Mikrobio Organismen [SNOMED CT]</h2><tt>https://amr.data2health.info/fhir/ValueSet/vs_amr_microbiology_microorganism_snomed</tt></div>"
+    },
+    "name": "VA AMR Microbiology Microorganism SNOMED",
+    "id": "vs_amr_microbiology_microorganism_snomed"
+  }

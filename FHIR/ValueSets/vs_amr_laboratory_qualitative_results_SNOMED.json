@@ -1,0 +1,34 @@
+{
+    "resourceType": "ValueSet",
+    "url": "https://amr.data2health.info/fhir/ValueSet/vs_amr_laboratory_qualitative_results_SNOMED",
+    "title": "VS AMR Laboratory Qualitative Results [SNOMED CT]",
+    "name": "vs_amr_laboratory_qualitative_results_SNOMED",
+    "status": "active",
+    "version": "0.0.0",
+    "compose": {
+      "include": [
+        {
+          "concept": [
+            {
+              "code": "260373001",
+              "display": "Detected (qualifier value)"
+            },
+            {
+              "code": "260415000",
+              "display": "Not detected (qualifier value)"
+            },
+            {
+              "code": "419984006",
+              "display": "Inconclusive (qualifier value)"
+            }
+          ],
+          "system": "http://snomed.info/sct"
+        }
+      ]
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>VS AMR Qualitative Lab Results [SNOMED CT]</h2><tt>https://amr.data2health.info/fhir/ValueSet/vs_amr_laboratory_qualitative_results_SNOMED</tt></div>"
+    },
+    "id": "vs_amr_laboratory_qualitative_results_SNOMED"
+}

@@ -1,0 +1,270 @@
+{
+    "resourceType": "StructureDefinition",
+    "id": "amr_microbiology_logical_model",
+    "url": "https://amr.example.gov.np/fhir/StructureDefinition/amr_microbiology_logical_model",
+    "name": "amr_microbiology_logical_mode",
+    "title": "AMR Microbiology Logical Model",
+    "status": "active",
+    "version": "0.0.1",
+    "description": "Logical Model for the graphical reprensentation",
+    "fhirVersion": "4.0.1",
+    "kind": "logical",
+    "abstract": false,
+    "type": "https://amr.example.gov.np/fhir/StructureDefinition/amr_microbiology_logical_model",
+    "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+    "derivation": "specialization",
+    "differential": {
+      "element": [
+        {
+          "id": "amr_microbiology_logical_model",
+          "path": "amr_microbiology_logical_model",
+          "short": "amr microbiology logical model",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "Element"
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Culture_diagnostics",
+          "path": "amr_microbiology_logical_model.Culture_diagnostics",
+          "short": "Culture diagnostics",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "BackboneElement"
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Culture_diagnostics.Detection",
+          "path": "amr_microbiology_logical_model.Culture_diagnostics.Detection",
+          "short": "Detection of microorganism",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "CodeableConcept",
+              "profile": [
+                "http://hl7.org/fhir/StructureDefinition/CodeableConcept"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Culture_diagnostics.OrganismName",
+          "path": "amr_microbiology_logical_model.Culture_diagnostics.OrganismName",
+          "short": "Name of organsim",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "CodeableConcept",
+              "profile": [
+                "http://hl7.org/fhir/StructureDefinition/CodeableConcept"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Culture_diagnostics.CultureMethod",
+          "path": "amr_microbiology_logical_model.Culture_diagnostics.CultureMethod",
+          "short": "Culture method",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "CodeableConcept",
+              "profile": [
+                "http://hl7.org/fhir/StructureDefinition/CodeableConcept"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Culture_diagnostics.MRGN",
+          "path": "amr_microbiology_logical_model.Culture_diagnostics.MRGN",
+          "short": "Multi-resistant Gram-Negative Organism Classification",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "BackboneElement"
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Culture_diagnostics.ColonyCount",
+          "path": "amr_microbiology_logical_model.Culture_diagnostics.ColonyCount",
+          "short": "Colony count",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "BackboneElement"
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Culture_diagnostics.Resistance",
+          "path": "amr_microbiology_logical_model.Culture_diagnostics.Resistance",
+          "short": "Determination of resistance",
+          "definition": "Determination of resistance",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "BackboneElement"
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Microscopy",
+          "path": "amr_microbiology_logical_model.Microscopy",
+          "short": "Microscopic investigation",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "BackboneElement"
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Microscopy.Detection",
+          "path": "amr_microbiology_logical_model.Microscopy.Detection",
+          "short": "Detection of microorganism",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "CodeableConcept",
+              "profile": [
+                "http://hl7.org/fhir/StructureDefinition/CodeableConcept"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Microscopy.OrganismName",
+          "path": "amr_microbiology_logical_model.Microscopy.OrganismName",
+          "short": "Name of the organism",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "CodeableConcept",
+              "profile": [
+                "http://hl7.org/fhir/StructureDefinition/CodeableConcept"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Microscopy.SemiquantitativeResult",
+          "path": "amr_microbiology_logical_model.Microscopy.SemiquantitativeResult",
+          "short": "Semiquantitative result",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "CodeableConcept",
+              "profile": [
+                "http://hl7.org/fhir/StructureDefinition/CodeableConcept"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Microscopy.QuantitativeResult",
+          "path": "amr_microbiology_logical_model.Microscopy.QuantitativeResult",
+          "short": "Quantitative result",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "CodeableConcept",
+              "profile": [
+                "http://hl7.org/fhir/StructureDefinition/CodeableConcept"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Microscopy.Method",
+          "path": "amr_microbiology_logical_model.Microscopy.Method",
+          "short": "Microscopy method",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "CodeableConcept",
+              "profile": [
+                "http://hl7.org/fhir/StructureDefinition/CodeableConcept"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Microscopy.Morphology",
+          "path": "amr_microbiology_logical_model.Microscopy.Morphology",
+          "short": "Morphology",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "CodeableConcept",
+              "profile": [
+                "http://hl7.org/fhir/StructureDefinition/CodeableConcept"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Microscopy.BarlettScore",
+          "path": "amr_microbiology_logical_model.Microscopy.BarlettScore",
+          "short": "Barlett score",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "CodeableConcept",
+              "profile": [
+                "http://hl7.org/fhir/StructureDefinition/CodeableConcept"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.Microscopy.NugentScore",
+          "path": "amr_microbiology_logical_model.Microscopy.NugentScore",
+          "short": "Nugent score",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "CodeableConcept",
+              "profile": [
+                "http://hl7.org/fhir/StructureDefinition/CodeableConcept"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "amr_microbiology_logical_model.DiagnosticReport",
+          "path": "amr_microbiology_logical_model.DiagnosticReport",
+          "short": "Diagnostic Report",
+          "min": 0,
+          "max": "*",
+          "type": [
+            {
+              "code": "BackboneElement"
+            }
+          ]
+        }
+      ]
+    }
+  }
