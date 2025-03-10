@@ -7,7 +7,14 @@ Maturity : Draft  (for disscussion with stakeholders)
 
 A FHIR-based logical model for standardizing antimicrobial resistance (AMR) surveillance data in microbiology laboratories of human health. This model focuses on **culture-based diagnostics**, **microscopy**, and organism properties which are currently being used or will be introduced in near future. Besides, surveillance this will also facilitate the standardization of the AMR realted data at the source(EMR/EHR/LMIS at hospitals and labs). 
 
-It is developed for Fleming Fund Country Grant for Nepal (FFCGN), implemented by FHI360 and Group for the Technical Assistant. 
+**Developed for** 
+
+`National Public Health Laboratory (NPHL)` <br>
+`Quality Standards and Regulatory Division(QSRD)` <br>
+`Ministry of Health and Population (MoHP)`. 
+
+Supported by 
+`Fleming Fund Country Grant for Nepal (FFCGN)/FHI360` and `Group for Technical Assistant`. 
 
 ---
 
@@ -96,12 +103,15 @@ amr_microbiology_logical_model
 ## Example
 
 ## Contribution
+>National public Health Laboratory 
 
-Prabin Raj Shakya (lead Consultant), prabinrs@gmail.com
+>Quality Standards and Regulatory Division(QSRD)
 
-Rakesh Panthi(),rakeshpanthi008@gmail.com
+>Prabin Raj Shakya (lead Consultant), prabinrs@gmail.com
 
-Subrat Gyawali (Technical Consultant), subhratmanigyawali@gmail.com
+>Rakesh Panthi(Senior SI specialist), rakeshpanthi008@gmail.com
+
+>Subrat Gyawali (Technical Consultant), subhratmanigyawali@gmail.com
 
 ## Learning Resouces
 - 📘 [**FHIR 101**](https://github.com/prabinrs/FHIR_telemed_2025)
