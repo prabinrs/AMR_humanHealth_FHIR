@@ -2,22 +2,15 @@
     "resourceType": "StructureDefinition",
     "id": "ExtensionSourceClinicalReferenceDate",
     "url": "https://www.amr.data2health.info/fhir/StructureDefinition/SourceClinicalReferenceDate",
-    "version": "1.0",
+    "version": "1.1",
     "name": "SourceClinicalReferenceDate",
     "title": "Extension Source Clinical Reference Date",
     "status": "active",
-    "description": "Source Clinical Reference Date for the samples",
+    "description": "An extension that provides the clinical reference date type for a sample, using SNOMED CT codes.",
     "fhirVersion": "4.0.1",
-    "mapping":  [
-        {
-            "identity": "rim",
-            "uri": "http://hl7.org/v3",
-            "name": "RIM Mapping"
-        }
-    ],
     "kind": "complex-type",
     "abstract": false,
-    "context":  [
+    "context": [
         {
             "type": "fhirpath",
             "expression": "Observation.effective.ofType(dateTime)"
@@ -27,13 +20,13 @@
     "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
     "derivation": "constraint",
     "differential": {
-        "element":  [
+        "element": [
             {
                 "id": "Extension.url",
                 "path": "Extension.url",
-                "type":  [
+                "type": [
                     {
-                        "extension":  [
+                        "extension": [
                             {
                                 "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
                                 "valueUrl": "uri"
@@ -48,7 +41,7 @@
                 "id": "Extension.value[x]",
                 "path": "Extension.value[x]",
                 "min": 1,
-                "type":  [
+                "type": [
                     {
                         "code": "Coding"
                     }
@@ -61,7 +54,8 @@
             {
                 "id": "Extension.value[x].system",
                 "path": "Extension.value[x].system",
-                "min": 1
+                "min": 1,
+                "fixedUri": "http://snomed.info/sct"
             },
             {
                 "id": "Extension.value[x].code",
