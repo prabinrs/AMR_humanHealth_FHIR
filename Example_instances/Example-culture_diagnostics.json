@@ -1,0 +1,74 @@
+{
+  "resourceType": "Observation",
+  "id": "culture_diagnostics1",
+  "meta": {
+    "profile": [
+      "https://amr.data2health.info/fhir/StructureDefinition/amr_microbiology_culture_diagnostics"
+    ]
+  },
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "OBI"
+          }
+        ]
+      },
+      "system": "https://example.org/fhir/sid/test-lab-results",
+      "value": "59826-8_1234567890",
+      "assigner": {
+        "identifier": {
+          "system": "https://www.example.mohp.gov/fhir/core/CodeSystem/core-location-identifier",
+          "value": "NP-LP"
+        }
+      }
+    }
+  ],
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "26436-6",
+          "display": "Laboratory studies (set)"
+        },
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory",
+          "display": "Laboratory"
+        },
+        {
+          "system": "http://loinc.org",
+          "code": "18725-2",
+          "display": "Microbiology studies (set)"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "49223-1",
+        "display": "Colony count [#/volume] in Unspecified specimen by Visual count"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example"
+  },
+  "effectiveDateTime": "2018-11-20T12:05:00+01:00",
+  "valueQuantity": {
+    "system": "http://unitsofmeasure.org",
+    "value": 1000000,
+    "code": "[CFU]/mL",
+    "unit": "CFU/ml"
+  },
+  "specimen": {
+    "reference": "Specimen/isolate",
+    "display": "Microbial isolate specimen 2"
+  }
+}

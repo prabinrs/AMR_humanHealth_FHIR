@@ -1,12 +1,12 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "AMR_microbiology_susceptibility",
+  "id": "AMR-microbiology-susceptibility",
   "url": "https://amr.data2health.info/fhir/StructureDefinition/AMR_microbiology_susceptibility",
   "version": "0.0.1",
   "name": "AMR_microbiology_susceptibility",
   "title": "AMR Microbiology susceptibility",
   "status": "active",
-  "experimental": true,
+  "experimental": false,
   "publisher": "Prabin (FNCCN Consultant)",
   "description": "This profile describes a susceptibility test in microbiology",
   "fhirVersion": "4.0.1",
@@ -65,15 +65,15 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.identifier:analyseFindingCode",
+        "id": "Observation.identifier:analysesFindingCode",
         "path": "Observation.identifier",
-        "sliceName": "analyseFindingCode",
+        "sliceName": "analysesFindingCode",
         "min": 1,
         "max": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.identifier:analyseFindingCode.type",
+        "id": "Observation.identifier:analysesFindingCode.type",
         "path": "Observation.identifier.type",
         "min": 1,
         "patternCodeableConcept": {
@@ -87,7 +87,7 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.identifier:analyseFindingCode.type.coding",
+        "id": "Observation.identifier:analysesFindingCode.type.coding",
         "path": "Observation.identifier.type.coding",
         "slicing": {
           "discriminator": [
@@ -102,7 +102,7 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.identifier:analyseFindingCode.type.coding:observationInstance",
+        "id": "Observation.identifier:analysesFindingCode.type.coding:observationInstance",
         "path": "Observation.identifier.type.coding",
         "sliceName": "observationInstance",
         "min": 1,
@@ -110,33 +110,33 @@
         "mustSupport": true
       },
       {
-        "id": "Observation.identifier:analyseFindingCode.type.coding:observationInstance.system",
+        "id": "Observation.identifier:analysesFindingCode.type.coding:observationInstance.system",
         "path": "Observation.identifier.type.coding.system",
         "min": 1,
         "fixedUri": "http://terminology.hl7.org/CodeSystem/v2-0203",
         "mustSupport": true
       },
       {
-        "id": "Observation.identifier:analyseFindingCode.type.coding:observationInstance.code",
+        "id": "Observation.identifier:analysesFindingCode.type.coding:observationInstance.code",
         "path": "Observation.identifier.type.coding.code",
         "min": 1,
         "fixedCode": "OBI",
         "mustSupport": true
       },
       {
-        "id": "Observation.identifier:analyseFindingCode.system",
+        "id": "Observation.identifier:analysesFindingCode.system",
         "path": "Observation.identifier.system",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.identifier:analyseFindingCode.value",
+        "id": "Observation.identifier:analysesFindingCode.value",
         "path": "Observation.identifier.value",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Observation.identifier:analyseFindingCode.assigner",
+        "id": "Observation.identifier:analysesFindingCode.assigner",
         "path": "Observation.identifier.assigner",
         "min": 1,
         "type": [
